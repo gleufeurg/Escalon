@@ -1,0 +1,18 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/t_lefevre1/Documents/Unreal Projects/MyProject/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
+				"C:/Users/t_lefevre1/Documents/Unreal Projects/MyProject/Content/AOE/SM_AOE_basic.uasset",
+				"C:/Users/t_lefevre1/Documents/Unreal Projects/MyProject/Content/AOE/AOE_Indicator.uasset",
+				"C:/Users/t_lefevre1/Documents/Unreal Projects/MyProject/Content/AOE/M_AOE.uasset",
+				"C:/Users/t_lefevre1/Documents/Unreal Projects/MyProject/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/t_lefevre1/Documents/Unreal Projects/MyProject/Content/ThirdPerson/Input/IMC_Default.uasset",
+				"C:/Users/t_lefevre1/Documents/Unreal Projects/MyProject/Content/AOE/NewBlueprint.uasset"
+			]
+		}
+	]
+}
