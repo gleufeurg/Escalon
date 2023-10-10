@@ -1,0 +1,6 @@
+2023/10/10-15:27:09.891 1a18 Creating DB C:/Users/t_lefevre1/Documents/GitHub/protoEscalon/MyProject/Saved/webcache_4430\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb since it was missing.
+2023/10/10-15:27:09.964 1a18 Reusing MANIFEST C:/Users/t_lefevre1/Documents/GitHub/protoEscalon/MyProject/Saved/webcache_4430\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/10-15:45:42.934 294 Level-0 table #5: started
+2023/10/10-15:45:42.953 294 Level-0 table #5: 1167 bytes OK
+2023/10/10-15:45:42.975 294 Delete type=0 #3
+2023/10/10-15:45:42.976 294 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
