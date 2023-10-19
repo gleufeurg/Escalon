@@ -1,0 +1,2 @@
+/Game/Inventory/WB_Inventory.Default__WB_Inventory_C
+/Game/Inventory/WB_Inventory.WB_Inventory_C
