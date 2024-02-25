@@ -457,6 +457,14 @@
 			"ChunkId": "4eefe050ec0582d800000001"
 		},
 		{
+			"Path": "Engine/Content/EngineMaterials/BlendFunc_DefBase.uasset",
+			"ChunkId": "34b40296d0d3844e00000001"
+		},
+		{
+			"Path": "Engine/Content/EngineMaterials/BlendFunc_DefBlend.uasset",
+			"ChunkId": "b1dd9666d4d25cf600000001"
+		},
+		{
 			"Path": "Engine/Content/EngineMaterials/DefaultBloomKernel.uasset",
 			"ChunkId": "cbab6b01dd8b7ffe00000001"
 		},
@@ -813,6 +821,10 @@
 			"ChunkId": "8ecbf6c61162774100000001"
 		},
 		{
+			"Path": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/DiamondGradient.uasset",
+			"ChunkId": "aa857baf732182e300000001"
+		},
+		{
 			"Path": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient.uasset",
 			"ChunkId": "e43855b9d402d6d500000001"
 		},
@@ -847,6 +859,10 @@
 		{
 			"Path": "Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/ScaleUVsByCenter.uasset",
 			"ChunkId": "e786ac693542bdc000000001"
+		},
+		{
+			"Path": "Engine/Content/Functions/Engine_MaterialFunctions02/Fresnel_Function.uasset",
+			"ChunkId": "76db413b8ed324e000000001"
 		},
 		{
 			"Path": "Engine/Content/Functions/Engine_MaterialFunctions02/Lerp_Multiple_Float.uasset",
@@ -949,12 +965,20 @@
 			"ChunkId": "4762b775bfe4b22d00000001"
 		},
 		{
+			"Path": "Engine/Content/Functions/Engine_MaterialFunctions03/Blends/Blend_Screen.uasset",
+			"ChunkId": "960861c4668616b700000001"
+		},
+		{
 			"Path": "Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset",
 			"ChunkId": "86bb9e26db3da1a600000001"
 		},
 		{
 			"Path": "Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/GeneratedBand.uasset",
 			"ChunkId": "e50b37b3c114a22b00000001"
+		},
+		{
+			"Path": "Engine/Content/Functions/Engine_MaterialFunctions03/Texturing/TwoSidedTexturing.uasset",
+			"ChunkId": "d812587583a9535d00000001"
 		},
 		{
 			"Path": "Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_NormalBlend.uasset",
@@ -1917,12 +1941,28 @@
 			"ChunkId": "f1ebd6418dba317a00000001"
 		},
 		{
-			"Path": "MyProject/Content/Art/BlockOut/ld.uasset",
-			"ChunkId": "06b5e9a6366f076500000001"
+			"Path": "MyProject/Content/Art/BlockOut/ld2.uasset",
+			"ChunkId": "8ef083a593ac55cf00000001"
 		},
 		{
-			"Path": "MyProject/Content/Art/BlockOut/ld.ubulk",
-			"ChunkId": "06b5e9a6366f076500000002"
+			"Path": "MyProject/Content/Art/BlockOut/ld2.ubulk",
+			"ChunkId": "8ef083a593ac55cf00000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/BlockOut/ld_1.uasset",
+			"ChunkId": "37f5b17d484bd55700000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/BlockOut/ld_1.ubulk",
+			"ChunkId": "37f5b17d484bd55700000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/BlockOut/ld_2.uasset",
+			"ChunkId": "746e078b093fea7700000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/BlockOut/ld_2.ubulk",
+			"ChunkId": "746e078b093fea7700000002"
 		},
 		{
 			"Path": "MyProject/Content/Art/BlockOut/Material__48.uasset",
@@ -2465,6 +2505,82 @@
 			"ChunkId": "0cf1282ee953d92800000002"
 		},
 		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Barrier_01a/MI_Barrier_01a.uasset",
+			"ChunkId": "11c7e6b29cbbbd4000000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Barrier_01a/MI_Barrier_dark_01a.uasset",
+			"ChunkId": "59f356a7f0df21d900000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Barrier_01a/MI_Barrier_light_01a.uasset",
+			"ChunkId": "01bcaffad43707f700000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Barrier_01a/SM_barrier_dark_01a.uasset",
+			"ChunkId": "842b4637295155d600000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Barrier_01a/SM_barrier_dark_01a.ubulk",
+			"ChunkId": "842b4637295155d600000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Barrier_01a/SM_barrier_light_01a.uasset",
+			"ChunkId": "7e06b218267e1e9400000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Barrier_01a/SM_barrier_light_01a.ubulk",
+			"ChunkId": "7e06b218267e1e9400000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Barrier_01a/SM_barrier_low_DefaultMaterial_BaseColor.uasset",
+			"ChunkId": "f23723f9e3c955b800000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Barrier_01a/SM_barrier_low_DefaultMaterial_BaseColor.ubulk",
+			"ChunkId": "f23723f9e3c955b800000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Barrier_01a/SM_barrier_low_DefaultMaterial_Normal.uasset",
+			"ChunkId": "958b76a0b7772d3400000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Barrier_01a/SM_barrier_low_DefaultMaterial_Normal.ubulk",
+			"ChunkId": "958b76a0b7772d3400000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Barrier_01a/SM_barrier_low_DefaultMaterial_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "7e52b594b929dd4d00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Barrier_01a/SM_barrier_low_DefaultMaterial_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "7e52b594b929dd4d00000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Barrier_01a/SM_barrier_mid_01a.uasset",
+			"ChunkId": "1c5b14a44dd5dc0000000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Barrier_01a/SM_barrier_mid_01a.ubulk",
+			"ChunkId": "1c5b14a44dd5dc0000000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Barrier_01a/T_barrier_dark_DefaultMaterial_BaseColor.uasset",
+			"ChunkId": "9fc3b4fb96aec97a00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Barrier_01a/T_barrier_dark_DefaultMaterial_BaseColor.ubulk",
+			"ChunkId": "9fc3b4fb96aec97a00000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Barrier_01a/T_barrier_light_DefaultMaterial_BaseColor.uasset",
+			"ChunkId": "c2fc6d6891a1319f00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Barrier_01a/T_barrier_light_DefaultMaterial_BaseColor.ubulk",
+			"ChunkId": "c2fc6d6891a1319f00000002"
+		},
+		{
 			"Path": "MyProject/Content/Art/Prefabs/SM_BatBanner_01a/MI_BatBanner_01a.uasset",
 			"ChunkId": "89af2d044872aa9600000001"
 		},
@@ -2825,6 +2941,158 @@
 			"ChunkId": "a66400d8906cffe000000002"
 		},
 		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Corner_mid_01a/MI_Corner_mid_dark_01a.uasset",
+			"ChunkId": "8ae915098014da3900000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Corner_mid_01a/MI_Corner_mid_light_01a.uasset",
+			"ChunkId": "3c3a4d003abf8af400000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Corner_mid_01a/MI_Corner_mid_mid_01a.uasset",
+			"ChunkId": "df2e48c5c64977a200000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Corner_mid_01a/SM_corner_mid_01a.uasset",
+			"ChunkId": "795840c91ffaca7e00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Corner_mid_01a/SM_corner_mid_01a.ubulk",
+			"ChunkId": "795840c91ffaca7e00000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Corner_mid_01a/SM_corner_mid_dark_01a.uasset",
+			"ChunkId": "40da7ac5cd285c3600000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Corner_mid_01a/SM_corner_mid_dark_01a.ubulk",
+			"ChunkId": "40da7ac5cd285c3600000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Corner_mid_01a/SM_corner_mid_light_01a.uasset",
+			"ChunkId": "f2b7875c2321f8f500000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Corner_mid_01a/SM_corner_mid_light_01a.ubulk",
+			"ChunkId": "f2b7875c2321f8f500000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Corner_mid_01a/T_corner_mid_dark_DefaultMaterial_BaseColor.uasset",
+			"ChunkId": "2cf5210338654b4300000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Corner_mid_01a/T_corner_mid_dark_DefaultMaterial_BaseColor.ubulk",
+			"ChunkId": "2cf5210338654b4300000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Corner_mid_01a/T_corner_mid_high_DefaultMaterial_BaseColor.uasset",
+			"ChunkId": "5e608ddde76726e300000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Corner_mid_01a/T_corner_mid_high_DefaultMaterial_BaseColor.ubulk",
+			"ChunkId": "5e608ddde76726e300000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Corner_mid_01a/T_corner_mid_mid_DefaultMaterial_BaseColor.uasset",
+			"ChunkId": "ab82bca8d38ad6a100000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Corner_mid_01a/T_corner_mid_mid_DefaultMaterial_BaseColor.ubulk",
+			"ChunkId": "ab82bca8d38ad6a100000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Corner_mid_01a/T_corner_mid_mid_DefaultMaterial_Normal.uasset",
+			"ChunkId": "795259b691c418ec00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Corner_mid_01a/T_corner_mid_mid_DefaultMaterial_Normal.ubulk",
+			"ChunkId": "795259b691c418ec00000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Corner_mid_01a/T_corner_mid_mid_DefaultMaterial_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "190a2d293413443d00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Corner_mid_01a/T_corner_mid_mid_DefaultMaterial_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "190a2d293413443d00000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Corner_small_01a/MI_Corner_small_01a.uasset",
+			"ChunkId": "92e83a8b0108047f00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Corner_small_01a/MI_Corner_small_dark_01a.uasset",
+			"ChunkId": "7b8f663c3704561700000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Corner_small_01a/MI_Corner_small_light_01a.uasset",
+			"ChunkId": "53e753b103a5570a00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Corner_small_01a/SM_corner_small_01a.uasset",
+			"ChunkId": "c60604d7c181040200000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Corner_small_01a/SM_corner_small_01a.ubulk",
+			"ChunkId": "c60604d7c181040200000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Corner_small_01a/SM_corner_small_dark_01a.uasset",
+			"ChunkId": "4ffb7a1efb4864f500000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Corner_small_01a/SM_corner_small_dark_01a.ubulk",
+			"ChunkId": "4ffb7a1efb4864f500000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Corner_small_01a/SM_corner_small_light_01a.uasset",
+			"ChunkId": "3485070c41bf8e8600000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Corner_small_01a/SM_corner_small_light_01a.ubulk",
+			"ChunkId": "3485070c41bf8e8600000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Corner_small_01a/T_corner_small_dark_DefaultMaterial_BaseColor.uasset",
+			"ChunkId": "3193c2dd8d301d6100000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Corner_small_01a/T_corner_small_dark_DefaultMaterial_BaseColor.ubulk",
+			"ChunkId": "3193c2dd8d301d6100000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Corner_small_01a/T_corner_small_light_DefaultMaterial_BaseColor.uasset",
+			"ChunkId": "071bee8e82e92c1000000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Corner_small_01a/T_corner_small_light_DefaultMaterial_BaseColor.ubulk",
+			"ChunkId": "071bee8e82e92c1000000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Corner_small_01a/T_corner_small_mid_DefaultMaterial_BaseColor.uasset",
+			"ChunkId": "932667aa3620c74600000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Corner_small_01a/T_corner_small_mid_DefaultMaterial_BaseColor.ubulk",
+			"ChunkId": "932667aa3620c74600000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Corner_small_01a/T_corner_small_mid_DefaultMaterial_Normal.uasset",
+			"ChunkId": "7bb629cce2b2357300000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Corner_small_01a/T_corner_small_mid_DefaultMaterial_Normal.ubulk",
+			"ChunkId": "7bb629cce2b2357300000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Corner_small_01a/T_corner_small_mid_DefaultMaterial_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "dd3fbaccf5e7254800000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Corner_small_01a/T_corner_small_mid_DefaultMaterial_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "dd3fbaccf5e7254800000002"
+		},
+		{
 			"Path": "MyProject/Content/Art/Prefabs/SM_DecorativePilar_01a/MI_DecorativePilar_01a.uasset",
 			"ChunkId": "eb335e9dae56355c00000001"
 		},
@@ -2861,76 +3129,364 @@
 			"ChunkId": "ecd34cc81309041400000002"
 		},
 		{
-			"Path": "MyProject/Content/Art/Prefabs/SM_Escalier_01a/MI_SM_Escalier_01a.uasset",
-			"ChunkId": "7a4880e7d76ee47600000001"
+			"Path": "MyProject/Content/Art/Prefabs/SM_fence_01a/MI_Fence_01a.uasset",
+			"ChunkId": "abebb3e868dc5ca500000001"
 		},
 		{
-			"Path": "MyProject/Content/Art/Prefabs/SM_Escalier_01a/SM_Escalier_1_low.uasset",
-			"ChunkId": "15ab2d8e819e145600000001"
+			"Path": "MyProject/Content/Art/Prefabs/SM_fence_01a/MI_Fence_dark_01a.uasset",
+			"ChunkId": "d4a2b712d89bf21e00000001"
 		},
 		{
-			"Path": "MyProject/Content/Art/Prefabs/SM_Escalier_01a/SM_Escalier_1_low.ubulk",
-			"ChunkId": "15ab2d8e819e145600000002"
+			"Path": "MyProject/Content/Art/Prefabs/SM_fence_01a/MI_Fence_light_01a.uasset",
+			"ChunkId": "9e2a1c117d5e7cc300000001"
 		},
 		{
-			"Path": "MyProject/Content/Art/Prefabs/SM_Escalier_01a/SM_Escalier_1_low_DefaultMaterial_BaseColor.uasset",
-			"ChunkId": "42a59cfe9d4882c400000001"
+			"Path": "MyProject/Content/Art/Prefabs/SM_fence_01a/SM_fence_01a.uasset",
+			"ChunkId": "642ea563dd88035700000001"
 		},
 		{
-			"Path": "MyProject/Content/Art/Prefabs/SM_Escalier_01a/SM_Escalier_1_low_DefaultMaterial_BaseColor.ubulk",
-			"ChunkId": "42a59cfe9d4882c400000002"
+			"Path": "MyProject/Content/Art/Prefabs/SM_fence_01a/SM_fence_01a.ubulk",
+			"ChunkId": "642ea563dd88035700000002"
 		},
 		{
-			"Path": "MyProject/Content/Art/Prefabs/SM_Escalier_01a/SM_Escalier_1_low_DefaultMaterial_Normal.uasset",
-			"ChunkId": "70a9335232c8cd3800000001"
+			"Path": "MyProject/Content/Art/Prefabs/SM_fence_01a/SM_fence_dark_01a.uasset",
+			"ChunkId": "b6f924ecb823652800000001"
 		},
 		{
-			"Path": "MyProject/Content/Art/Prefabs/SM_Escalier_01a/SM_Escalier_1_low_DefaultMaterial_Normal.ubulk",
-			"ChunkId": "70a9335232c8cd3800000002"
+			"Path": "MyProject/Content/Art/Prefabs/SM_fence_01a/SM_fence_dark_01a.ubulk",
+			"ChunkId": "b6f924ecb823652800000002"
 		},
 		{
-			"Path": "MyProject/Content/Art/Prefabs/SM_Escalier_01a/SM_Escalier_1_low_DefaultMaterial_OcclusionRoughnessMetallic.uasset",
-			"ChunkId": "71f446a1c38f7d1000000001"
+			"Path": "MyProject/Content/Art/Prefabs/SM_fence_01a/SM_fence_light_01a.uasset",
+			"ChunkId": "d732ece15c6c5e3a00000001"
 		},
 		{
-			"Path": "MyProject/Content/Art/Prefabs/SM_Escalier_01a/SM_Escalier_1_low_DefaultMaterial_OcclusionRoughnessMetallic.ubulk",
-			"ChunkId": "71f446a1c38f7d1000000002"
+			"Path": "MyProject/Content/Art/Prefabs/SM_fence_01a/SM_fence_light_01a.ubulk",
+			"ChunkId": "d732ece15c6c5e3a00000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_fence_01a/T_fence_dark_DefaultMaterial_BaseColor.uasset",
+			"ChunkId": "5316938a55b3610f00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_fence_01a/T_fence_dark_DefaultMaterial_BaseColor.ubulk",
+			"ChunkId": "5316938a55b3610f00000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_fence_01a/T_fence_light_DefaultMaterial_BaseColor.uasset",
+			"ChunkId": "56c3128d1a3c1d2e00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_fence_01a/T_fence_light_DefaultMaterial_BaseColor.ubulk",
+			"ChunkId": "56c3128d1a3c1d2e00000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_fence_01a/T_fence_mid_DefaultMaterial_BaseColor.uasset",
+			"ChunkId": "14ed5e2c8aa4895a00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_fence_01a/T_fence_mid_DefaultMaterial_BaseColor.ubulk",
+			"ChunkId": "14ed5e2c8aa4895a00000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_fence_01a/T_fence_mid_DefaultMaterial_Normal.uasset",
+			"ChunkId": "f62ab0ab47fef1f600000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_fence_01a/T_fence_mid_DefaultMaterial_Normal.ubulk",
+			"ChunkId": "f62ab0ab47fef1f600000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_fence_01a/T_fence_mid_DefaultMaterial_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "cb1a22c36e5c7c8200000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_fence_01a/T_fence_mid_DefaultMaterial_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "cb1a22c36e5c7c8200000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_01a/MI_Flag_blue_01a.uasset",
+			"ChunkId": "4fbf31ccbba5a07c00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_01a/MI_Flag_green_01a.uasset",
+			"ChunkId": "13d7b34b7c5f981d00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_01a/MI_Flag_orange_01a.uasset",
+			"ChunkId": "56bd2126e8dde76f00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_01a/MI_Flag_pink_01a.uasset",
+			"ChunkId": "ef98160d3982e1ad00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_01a/MI_Flag_red_01a.uasset",
+			"ChunkId": "0795bf191a1f36d100000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_01a/SM_Banner_blue_02a.uasset",
+			"ChunkId": "79967611e326f2c200000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_01a/SM_Banner_blue_02a.ubulk",
+			"ChunkId": "79967611e326f2c200000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_01a/SM_Banner_green_02a.uasset",
+			"ChunkId": "604fb469818b368200000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_01a/SM_Banner_green_02a.ubulk",
+			"ChunkId": "604fb469818b368200000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_01a/SM_Banner_orange_02a.uasset",
+			"ChunkId": "a3a97707db5c1a6a00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_01a/SM_Banner_orange_02a.ubulk",
+			"ChunkId": "a3a97707db5c1a6a00000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_01a/SM_Banner_pink_02a.uasset",
+			"ChunkId": "43f7947a8db8468a00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_01a/SM_Banner_pink_02a.ubulk",
+			"ChunkId": "43f7947a8db8468a00000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_01a/SM_Banner_red_02a.uasset",
+			"ChunkId": "6588724abec7fe2800000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_01a/SM_Banner_red_02a.ubulk",
+			"ChunkId": "6588724abec7fe2800000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_01a/T_Banner_02a_BaseColor_a.uasset",
+			"ChunkId": "3fe5e29d9c20f3fc00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_01a/T_Banner_02a_BaseColor_a.ubulk",
+			"ChunkId": "3fe5e29d9c20f3fc00000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_01a/T_Banner_02a_BaseColor_b.uasset",
+			"ChunkId": "fffe3719573881b800000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_01a/T_Banner_02a_BaseColor_b.ubulk",
+			"ChunkId": "fffe3719573881b800000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_01a/T_Banner_02a_BaseColor_c.uasset",
+			"ChunkId": "e1b9098c70a14eb500000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_01a/T_Banner_02a_BaseColor_c.ubulk",
+			"ChunkId": "e1b9098c70a14eb500000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_01a/T_Banner_02a_BaseColor_d.uasset",
+			"ChunkId": "7e8eebd749e9390600000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_01a/T_Banner_02a_BaseColor_d.ubulk",
+			"ChunkId": "7e8eebd749e9390600000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_01a/T_Banner_02a_BaseColor_e.uasset",
+			"ChunkId": "5d8274e97898e3bd00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_01a/T_Banner_02a_BaseColor_e.ubulk",
+			"ChunkId": "5d8274e97898e3bd00000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_01a/T_Banner_02a_Normal.uasset",
+			"ChunkId": "1a7edf09801c4ac800000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_01a/T_Banner_02a_Normal.ubulk",
+			"ChunkId": "1a7edf09801c4ac800000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_01a/T_Banner_02a_ORM.uasset",
+			"ChunkId": "5cf83f6a5f26270700000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_01a/T_Banner_02a_ORM.ubulk",
+			"ChunkId": "5cf83f6a5f26270700000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_pillar_01a/MI_Flag_pillar_01a.uasset",
+			"ChunkId": "74c61918fad8c9ae00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_pillar_01a/MI_Flag_pillar_dark_01a.uasset",
+			"ChunkId": "e135a6ef9ab7550600000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_pillar_01a/MI_Flag_pillar_default_01a.uasset",
+			"ChunkId": "5eb1fce51fa71f4600000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_pillar_01a/MI_Flag_pillar_light_01a.uasset",
+			"ChunkId": "ba43399ec609ff6a00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_pillar_01a/SM_FlagPilar_01a.uasset",
+			"ChunkId": "92cd61df2c29adfd00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_pillar_01a/SM_FlagPilar_01a.ubulk",
+			"ChunkId": "92cd61df2c29adfd00000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_pillar_01a/SM_FlagPilar_dark_01a.uasset",
+			"ChunkId": "cf0954378e62889f00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_pillar_01a/SM_FlagPilar_dark_01a.ubulk",
+			"ChunkId": "cf0954378e62889f00000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_pillar_01a/SM_FlagPilar_default_01a.uasset",
+			"ChunkId": "a9b68af34ea5d80400000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_pillar_01a/SM_FlagPilar_default_01a.ubulk",
+			"ChunkId": "a9b68af34ea5d80400000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_pillar_01a/SM_FlagPilar_light_01a.uasset",
+			"ChunkId": "77c300556f1d669300000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_pillar_01a/SM_FlagPilar_light_01a.ubulk",
+			"ChunkId": "77c300556f1d669300000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_pillar_01a/T_FlagPilar_01a_dark_DefaultMaterial_BaseColor.uasset",
+			"ChunkId": "afa8279e0f28444e00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_pillar_01a/T_FlagPilar_01a_dark_DefaultMaterial_BaseColor.ubulk",
+			"ChunkId": "afa8279e0f28444e00000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_pillar_01a/T_FlagPilar_01a_default_DefaultMaterial_BaseColor.uasset",
+			"ChunkId": "d90a2a54cfca94f300000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_pillar_01a/T_FlagPilar_01a_default_DefaultMaterial_BaseColor.ubulk",
+			"ChunkId": "d90a2a54cfca94f300000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_pillar_01a/T_FlagPilar_01a_light_DefaultMaterial_BaseColor.uasset",
+			"ChunkId": "5633d0baf97d54ef00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_pillar_01a/T_FlagPilar_01a_light_DefaultMaterial_BaseColor.ubulk",
+			"ChunkId": "5633d0baf97d54ef00000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_pillar_01a/T_FlagPilar_01a_mid_DefaultMaterial_BaseColor.uasset",
+			"ChunkId": "41df26a1417aa54200000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_pillar_01a/T_FlagPilar_01a_mid_DefaultMaterial_BaseColor.ubulk",
+			"ChunkId": "41df26a1417aa54200000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_pillar_01a/T_FlagPilar_01a_mid_DefaultMaterial_Normal.uasset",
+			"ChunkId": "6ea2034dd009f66100000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_pillar_01a/T_FlagPilar_01a_mid_DefaultMaterial_Normal.ubulk",
+			"ChunkId": "6ea2034dd009f66100000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_pillar_01a/T_FlagPilar_01a_mid_DefaultMaterial_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "5c4ecd38282e80bf00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Flag_pillar_01a/T_FlagPilar_01a_mid_DefaultMaterial_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "5c4ecd38282e80bf00000002"
 		},
 		{
 			"Path": "MyProject/Content/Art/Prefabs/SM_Floor_01a/MI_Floor_01a.uasset",
 			"ChunkId": "e655d71d273a6a4100000001"
 		},
 		{
-			"Path": "MyProject/Content/Art/Prefabs/SM_Floor_01a/SM_SunDialRoom_01a.uasset",
-			"ChunkId": "028aaad7be1c01f300000001"
+			"Path": "MyProject/Content/Art/Prefabs/SM_Floor_01a/SM_SunDialRoom_01b.uasset",
+			"ChunkId": "01988672ed7711d500000001"
 		},
 		{
-			"Path": "MyProject/Content/Art/Prefabs/SM_Floor_01a/SM_SunDialRoom_01a.ubulk",
-			"ChunkId": "028aaad7be1c01f300000002"
+			"Path": "MyProject/Content/Art/Prefabs/SM_Floor_01a/SM_SunDialRoom_01b.ubulk",
+			"ChunkId": "01988672ed7711d500000002"
 		},
 		{
-			"Path": "MyProject/Content/Art/Prefabs/SM_Floor_01a/T_SunDialRoom_BaseColor.uasset",
-			"ChunkId": "eac7f53bd31da30a00000001"
+			"Path": "MyProject/Content/Art/Prefabs/SM_Floor_01a/T_SunDialRoom_01b_BaseColor.uasset",
+			"ChunkId": "24716e2f4e7a9e8700000001"
 		},
 		{
-			"Path": "MyProject/Content/Art/Prefabs/SM_Floor_01a/T_SunDialRoom_BaseColor.ubulk",
-			"ChunkId": "eac7f53bd31da30a00000002"
+			"Path": "MyProject/Content/Art/Prefabs/SM_Floor_01a/T_SunDialRoom_01b_BaseColor.ubulk",
+			"ChunkId": "24716e2f4e7a9e8700000002"
 		},
 		{
-			"Path": "MyProject/Content/Art/Prefabs/SM_Floor_01a/T_SunDialRoom_Normal.uasset",
-			"ChunkId": "15ece84110955f7200000001"
+			"Path": "MyProject/Content/Art/Prefabs/SM_Floor_01a/T_SunDialRoom_01b_Normal.uasset",
+			"ChunkId": "0ff697d9bfbd183a00000001"
 		},
 		{
-			"Path": "MyProject/Content/Art/Prefabs/SM_Floor_01a/T_SunDialRoom_Normal.ubulk",
-			"ChunkId": "15ece84110955f7200000002"
+			"Path": "MyProject/Content/Art/Prefabs/SM_Floor_01a/T_SunDialRoom_01b_Normal.ubulk",
+			"ChunkId": "0ff697d9bfbd183a00000002"
 		},
 		{
-			"Path": "MyProject/Content/Art/Prefabs/SM_Floor_01a/T_SunDialRoom_ORM.uasset",
-			"ChunkId": "694f4cc065f6fe3c00000001"
+			"Path": "MyProject/Content/Art/Prefabs/SM_Floor_01a/T_SunDialRoom_01b_ORM.uasset",
+			"ChunkId": "e6dafbb5e609ff7d00000001"
 		},
 		{
-			"Path": "MyProject/Content/Art/Prefabs/SM_Floor_01a/T_SunDialRoom_ORM.ubulk",
-			"ChunkId": "694f4cc065f6fe3c00000002"
+			"Path": "MyProject/Content/Art/Prefabs/SM_Floor_01a/T_SunDialRoom_01b_ORM.ubulk",
+			"ChunkId": "e6dafbb5e609ff7d00000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Floor_02a/MI_Floor_02a.uasset",
+			"ChunkId": "4d56d47e211c87b100000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Floor_02a/SM_floor_02a_low.uasset",
+			"ChunkId": "0108636d0d1274b100000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Floor_02a/SM_floor_02a_low.ubulk",
+			"ChunkId": "0108636d0d1274b100000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Floor_02a/T_floor_02a_mid_DefaultMaterial_BaseColor.uasset",
+			"ChunkId": "be8b39db0df54e8f00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Floor_02a/T_floor_02a_mid_DefaultMaterial_BaseColor.ubulk",
+			"ChunkId": "be8b39db0df54e8f00000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Floor_02a/T_floor_02a_mid_DefaultMaterial_Normal.uasset",
+			"ChunkId": "79ad5cb375bc767900000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Floor_02a/T_floor_02a_mid_DefaultMaterial_Normal.ubulk",
+			"ChunkId": "79ad5cb375bc767900000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Floor_02a/T_floor_02a_mid_DefaultMaterial_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "772ed5d9725e19a800000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Floor_02a/T_floor_02a_mid_DefaultMaterial_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "772ed5d9725e19a800000002"
 		},
 		{
 			"Path": "MyProject/Content/Art/Prefabs/SM_Obelisk_01a/MI_Obelisk_01a.uasset",
@@ -3475,6 +4031,418 @@
 		{
 			"Path": "MyProject/Content/Art/Prefabs/SM_Shadow_tricks/Plant_roof2.ubulk",
 			"ChunkId": "103c46272833e8d800000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Stairs_01a/MI_SM_Escalier_01a.uasset",
+			"ChunkId": "34530d6f0994194e00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Stairs_01a/SM_Escalier_1_low.uasset",
+			"ChunkId": "2f497739aa5af3c000000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Stairs_01a/SM_Escalier_1_low.ubulk",
+			"ChunkId": "2f497739aa5af3c000000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Stairs_01a/SM_Escalier_1_low_DefaultMaterial_BaseColor.uasset",
+			"ChunkId": "b25b6d24b1d1d79300000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Stairs_01a/SM_Escalier_1_low_DefaultMaterial_BaseColor.ubulk",
+			"ChunkId": "b25b6d24b1d1d79300000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Stairs_01a/SM_Escalier_1_low_DefaultMaterial_Normal.uasset",
+			"ChunkId": "02403af7a0faff4900000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Stairs_01a/SM_Escalier_1_low_DefaultMaterial_Normal.ubulk",
+			"ChunkId": "02403af7a0faff4900000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Stairs_01a/SM_Escalier_1_low_DefaultMaterial_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "514c00c94d43b28800000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Stairs_01a/SM_Escalier_1_low_DefaultMaterial_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "514c00c94d43b28800000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Stairs_02a/MI_Stairs_02a.uasset",
+			"ChunkId": "9a057920282355be00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Stairs_02a/SM_Stair_02a_low.uasset",
+			"ChunkId": "3e65d37c38638f1300000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Stairs_02a/SM_Stair_02a_low.ubulk",
+			"ChunkId": "3e65d37c38638f1300000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Stairs_02a/T_Stair_02a_mid_DefaultMaterial_BaseColor.uasset",
+			"ChunkId": "d3243ae779d64bfc00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Stairs_02a/T_Stair_02a_mid_DefaultMaterial_BaseColor.ubulk",
+			"ChunkId": "d3243ae779d64bfc00000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Stairs_02a/T_Stair_02a_mid_DefaultMaterial_Normal.uasset",
+			"ChunkId": "8189c2b04ec5b1a800000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Stairs_02a/T_Stair_02a_mid_DefaultMaterial_Normal.ubulk",
+			"ChunkId": "8189c2b04ec5b1a800000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Stairs_02a/T_Stair_02a_mid_DefaultMaterial_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "b4821676eadb7dde00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Stairs_02a/T_Stair_02a_mid_DefaultMaterial_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "b4821676eadb7dde00000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Base_01a/MI_Base_dark_01a.uasset",
+			"ChunkId": "b618e4b1fab79e2700000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Base_01a/MI_Base_mid_01a.uasset",
+			"ChunkId": "f45adedad7e3747800000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Base_01a/SM_Base_dark_01a.uasset",
+			"ChunkId": "d4ce6367a49e193600000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Base_01a/SM_Base_dark_01a.ubulk",
+			"ChunkId": "d4ce6367a49e193600000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Base_01a/SM_Base_mid_01a.uasset",
+			"ChunkId": "e4bb94b5100bf1f600000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Base_01a/SM_Base_mid_01a.ubulk",
+			"ChunkId": "e4bb94b5100bf1f600000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Base_01a/T_Base_dark_DefaultMaterial_BaseColor.uasset",
+			"ChunkId": "478c8fc2dc3f8e9f00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Base_01a/T_Base_dark_DefaultMaterial_BaseColor.ubulk",
+			"ChunkId": "478c8fc2dc3f8e9f00000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Base_01a/T_Base_dark_DefaultMaterial_Normal.uasset",
+			"ChunkId": "4cda4cf5ddebc21100000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Base_01a/T_Base_dark_DefaultMaterial_Normal.ubulk",
+			"ChunkId": "4cda4cf5ddebc21100000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Base_01a/T_Base_dark_DefaultMaterial_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "5d19e95f4f2edfc000000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Base_01a/T_Base_dark_DefaultMaterial_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "5d19e95f4f2edfc000000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Base_01a/T_Base_default_DefaultMaterial_BaseColor.uasset",
+			"ChunkId": "788056185694278900000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Base_01a/T_Base_default_DefaultMaterial_BaseColor.ubulk",
+			"ChunkId": "788056185694278900000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Base_01a/T_Base_light_DefaultMaterial_BaseColor.uasset",
+			"ChunkId": "186f213a0d1833bd00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Base_01a/T_Base_light_DefaultMaterial_BaseColor.ubulk",
+			"ChunkId": "186f213a0d1833bd00000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Base_01a/T_Base_mid_DefaultMaterial_BaseColor.uasset",
+			"ChunkId": "04e44cd584dd45fe00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Base_01a/T_Base_mid_DefaultMaterial_BaseColor.ubulk",
+			"ChunkId": "04e44cd584dd45fe00000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_bordures_01a/MI_tour_ita_01a.uasset",
+			"ChunkId": "10ffbf1a0f8975e700000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_bordures_01a/T_tour_dark_DefaultMaterial_BaseColor.uasset",
+			"ChunkId": "b20f9b2ffe12452e00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_bordures_01a/T_tour_dark_DefaultMaterial_BaseColor.ubulk",
+			"ChunkId": "b20f9b2ffe12452e00000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_bordures_01a/T_tour_dark_DefaultMaterial_Normal.uasset",
+			"ChunkId": "6b7831a4dbe3cc2500000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_bordures_01a/T_tour_dark_DefaultMaterial_Normal.ubulk",
+			"ChunkId": "6b7831a4dbe3cc2500000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_bordures_01a/T_tour_dark_DefaultMaterial_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "25513b6a494d9c9800000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_bordures_01a/T_tour_dark_DefaultMaterial_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "25513b6a494d9c9800000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_bordures_01a/T_tour_light_DefaultMaterial_BaseColor.uasset",
+			"ChunkId": "103175c957549c4b00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_bordures_01a/T_tour_light_DefaultMaterial_BaseColor.ubulk",
+			"ChunkId": "103175c957549c4b00000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_bordures_01a/tour_low.uasset",
+			"ChunkId": "e0ca1c76f992c55500000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_bordures_01a/tour_low.ubulk",
+			"ChunkId": "e0ca1c76f992c55500000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_bordures_01a/Ttour_mid_DefaultMaterial_BaseColor.uasset",
+			"ChunkId": "a13f70310e5edaf400000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_bordures_01a/Ttour_mid_DefaultMaterial_BaseColor.ubulk",
+			"ChunkId": "a13f70310e5edaf400000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Frigo/T_tour_dark_DefaultMaterial_BaseColor.uasset",
+			"ChunkId": "90d3b4a69075e4b400000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Frigo/T_tour_dark_DefaultMaterial_BaseColor.ubulk",
+			"ChunkId": "90d3b4a69075e4b400000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Frigo/T_tour_dark_DefaultMaterial_Normal.uasset",
+			"ChunkId": "80f8e2f121be19f200000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Frigo/T_tour_dark_DefaultMaterial_Normal.ubulk",
+			"ChunkId": "80f8e2f121be19f200000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Frigo/T_tour_dark_DefaultMaterial_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "67d5ed34729dedeb00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Frigo/T_tour_dark_DefaultMaterial_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "67d5ed34729dedeb00000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Frigo/T_tour_light_DefaultMaterial_BaseColor.uasset",
+			"ChunkId": "8c547693b6d74f4c00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Frigo/T_tour_light_DefaultMaterial_BaseColor.ubulk",
+			"ChunkId": "8c547693b6d74f4c00000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Frigo/tour_low.uasset",
+			"ChunkId": "101d799f8f125dbe00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Frigo/tour_low.ubulk",
+			"ChunkId": "101d799f8f125dbe00000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Frigo/Ttour_mid_DefaultMaterial_BaseColor.uasset",
+			"ChunkId": "67cd32194acbcfb600000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Frigo/Ttour_mid_DefaultMaterial_BaseColor.ubulk",
+			"ChunkId": "67cd32194acbcfb600000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Hidden_floor_01a/MI_Hidden_floor_dark_01a.uasset",
+			"ChunkId": "1233f845a1bb605d00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Hidden_floor_01a/MI_Hidden_floor_default_01a.uasset",
+			"ChunkId": "1ba4408280b7ccc200000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Hidden_floor_01a/MI_Hidden_floor_mid_01a.uasset",
+			"ChunkId": "f9c17649d5274cc200000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Hidden_floor_01a/SM_Sous_sol_01a.uasset",
+			"ChunkId": "f306f126a487bd4900000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Hidden_floor_01a/SM_Sous_sol_01a.ubulk",
+			"ChunkId": "f306f126a487bd4900000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Hidden_floor_01a/SM_Sous_sol_default_01a.uasset",
+			"ChunkId": "7cfd69b5374a0add00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Hidden_floor_01a/SM_Sous_sol_default_01a.ubulk",
+			"ChunkId": "7cfd69b5374a0add00000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Hidden_floor_01a/T_Sous_sol_dark_DefaultMaterial_BaseColor.uasset",
+			"ChunkId": "469f99f0542580d700000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Hidden_floor_01a/T_Sous_sol_dark_DefaultMaterial_BaseColor.ubulk",
+			"ChunkId": "469f99f0542580d700000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Hidden_floor_01a/T_Sous_sol_default_DefaultMaterial_BaseColor.uasset",
+			"ChunkId": "5f51c94122c0326e00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Hidden_floor_01a/T_Sous_sol_default_DefaultMaterial_BaseColor.ubulk",
+			"ChunkId": "5f51c94122c0326e00000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Hidden_floor_01a/T_Sous_sol_mid_DefaultMaterial_BaseColor.uasset",
+			"ChunkId": "22a40e0b4100c1b500000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Hidden_floor_01a/T_Sous_sol_mid_DefaultMaterial_BaseColor.ubulk",
+			"ChunkId": "22a40e0b4100c1b500000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Hidden_floor_01a/T_Sous_sol_mid_DefaultMaterial_Normal.uasset",
+			"ChunkId": "6aebbf761caada4500000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Hidden_floor_01a/T_Sous_sol_mid_DefaultMaterial_Normal.ubulk",
+			"ChunkId": "6aebbf761caada4500000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Hidden_floor_01a/T_Sous_sol_mid_DefaultMaterial_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "5b6002baf8e419a800000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Hidden_floor_01a/T_Sous_sol_mid_DefaultMaterial_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "5b6002baf8e419a800000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Pilier_t_01a/MI_Pilier_t_dark_01a.uasset",
+			"ChunkId": "61912d2458e2107d00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Pilier_t_01a/MI_Pilier_t_default_01a.uasset",
+			"ChunkId": "b98b41b3fabca23e00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Pilier_t_01a/MI_Pilier_t_light_01a.uasset",
+			"ChunkId": "351218fe7b212ae900000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Pilier_t_01a/MI_Pilier_t_mid_01a.uasset",
+			"ChunkId": "c4f32946d67b2db600000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Pilier_t_01a/MI_Tour_01a.uasset",
+			"ChunkId": "7905704734c6226300000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Pilier_t_01a/SM_Pilier_t_dark_01a.uasset",
+			"ChunkId": "65edc2e13e07917700000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Pilier_t_01a/SM_Pilier_t_dark_01a.ubulk",
+			"ChunkId": "65edc2e13e07917700000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Pilier_t_01a/SM_Pilier_t_default_01a.uasset",
+			"ChunkId": "9469cf3cc4f2b29c00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Pilier_t_01a/SM_Pilier_t_default_01a.ubulk",
+			"ChunkId": "9469cf3cc4f2b29c00000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Pilier_t_01a/SM_Pilier_t_light_01a.uasset",
+			"ChunkId": "cf467c81e01474cf00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Pilier_t_01a/SM_Pilier_t_light_01a.ubulk",
+			"ChunkId": "cf467c81e01474cf00000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Pilier_t_01a/SM_Pilier_t_mid_01a.uasset",
+			"ChunkId": "b118c437bddb487100000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Pilier_t_01a/SM_Pilier_t_mid_01a.ubulk",
+			"ChunkId": "b118c437bddb487100000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Pilier_t_01a/T_Pilier_t_dark_DefaultMaterial_BaseColor.uasset",
+			"ChunkId": "de745aa91dbd928500000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Pilier_t_01a/T_Pilier_t_dark_DefaultMaterial_BaseColor.ubulk",
+			"ChunkId": "de745aa91dbd928500000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Pilier_t_01a/T_Pilier_t_default_DefaultMaterial_BaseColor.uasset",
+			"ChunkId": "9059801cb050e9bb00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Pilier_t_01a/T_Pilier_t_default_DefaultMaterial_BaseColor.ubulk",
+			"ChunkId": "9059801cb050e9bb00000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Pilier_t_01a/T_Pilier_t_light_DefaultMaterial_BaseColor.uasset",
+			"ChunkId": "106a786c7298f04100000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Pilier_t_01a/T_Pilier_t_light_DefaultMaterial_BaseColor.ubulk",
+			"ChunkId": "106a786c7298f04100000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Pilier_t_01a/T_Pilier_t_mid_DefaultMaterial_BaseColor.uasset",
+			"ChunkId": "cd51124032e0a00b00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Pilier_t_01a/T_Pilier_t_mid_DefaultMaterial_BaseColor.ubulk",
+			"ChunkId": "cd51124032e0a00b00000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Pilier_t_01a/T_Pilier_t_mid_DefaultMaterial_Normal.uasset",
+			"ChunkId": "c2b978a7b2406f9800000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Pilier_t_01a/T_Pilier_t_mid_DefaultMaterial_Normal.ubulk",
+			"ChunkId": "c2b978a7b2406f9800000002"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Pilier_t_01a/T_Pilier_t_mid_DefaultMaterial_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "43cc01e6457248cf00000001"
+		},
+		{
+			"Path": "MyProject/Content/Art/Prefabs/SM_Starter_tower_01a/SM_Pilier_t_01a/T_Pilier_t_mid_DefaultMaterial_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "43cc01e6457248cf00000002"
 		},
 		{
 			"Path": "MyProject/Content/Art/Prefabs/SM_TorcheMural_01a/MI_SM_TorcheMural_01a.uasset",
@@ -4813,14 +5781,6 @@
 			"ChunkId": "ed07307a8e6e0ce400000001"
 		},
 		{
-			"Path": "MyProject/Content/Enemies/AI/BTT_ClearFocus.uasset",
-			"ChunkId": "ab27c210e273e56b00000001"
-		},
-		{
-			"Path": "MyProject/Content/Enemies/AI/BTT_FocusTarget.uasset",
-			"ChunkId": "19c50871a5e9198a00000001"
-		},
-		{
 			"Path": "MyProject/Content/Enemies/AI/Decorators/BTD_HasPatrolRoute.uasset",
 			"ChunkId": "7697d2cc43d4c70400000001"
 		},
@@ -4853,8 +5813,16 @@
 			"ChunkId": "7912b47fde7542f100000001"
 		},
 		{
+			"Path": "MyProject/Content/Enemies/AI/Tasks/BTT_ClearFocus.uasset",
+			"ChunkId": "3ce88241fd1709a100000001"
+		},
+		{
 			"Path": "MyProject/Content/Enemies/AI/Tasks/BTT_DefaultAttack.uasset",
 			"ChunkId": "5909eb8f9af6aaa300000001"
+		},
+		{
+			"Path": "MyProject/Content/Enemies/AI/Tasks/BTT_FocusTarget.uasset",
+			"ChunkId": "c28413845825c50000000001"
 		},
 		{
 			"Path": "MyProject/Content/Enemies/AI/Tasks/BTT_MoveToIdealRange.uasset",
@@ -5207,6 +6175,1230 @@
 		{
 			"Path": "MyProject/Content/FX/Sounds/SoundWaves/Skill/NoSkill_CantUse/I-have-nothing-to-us.ubulk",
 			"ChunkId": "d860b1c0c2ba35e900000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Blueprints/BP_ky_aquaStorm.uasset",
+			"ChunkId": "a051366c56cc51d800000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Blueprints/BP_ky_darkStorm.uasset",
+			"ChunkId": "e37b33f2e920f73500000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Blueprints/BP_ky_explosion.uasset",
+			"ChunkId": "5186fafcd96729a700000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Blueprints/BP_ky_fireBall.uasset",
+			"ChunkId": "3185ea6ea7da50a300000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Blueprints/BP_ky_fireStorm.uasset",
+			"ChunkId": "105e622831d70eca00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Blueprints/BP_ky_healAura.uasset",
+			"ChunkId": "55874f5c0be8bfff00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Blueprints/BP_ky_hit1.uasset",
+			"ChunkId": "9cc269150a0788d400000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Blueprints/BP_ky_hit2.uasset",
+			"ChunkId": "a77129befe9ebd3300000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Blueprints/BP_ky_laser01.uasset",
+			"ChunkId": "4c4d7cd0a26c896500000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Blueprints/BP_ky_lightning1.uasset",
+			"ChunkId": "72506adf07fa4e0200000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Blueprints/BP_ky_lightning2.uasset",
+			"ChunkId": "bc8fe225485ade7700000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Blueprints/BP_ky_lightning3.uasset",
+			"ChunkId": "292a8a2ea9e4a8c600000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Blueprints/BP_ky_magicCircle1.uasset",
+			"ChunkId": "a9e7bae7a1e1448200000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Blueprints/BP_ky_shootingStar1.uasset",
+			"ChunkId": "ec91364dd2c243ae00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Blueprints/BP_ky_shotSpawn.uasset",
+			"ChunkId": "a1a2c029dd82219f00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Blueprints/BP_ky_storm.uasset",
+			"ChunkId": "ee418bbc911faf5400000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Blueprints/BP_ky_thunderBall.uasset",
+			"ChunkId": "3196855f8acce97300000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Blueprints/BP_ky_ThunderBallHit.uasset",
+			"ChunkId": "d9c38d31c428486b00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Blueprints/BP_ky_thunderStorm.uasset",
+			"ChunkId": "8d0587363b55cf6d00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Blueprints/BP_ky_waterBall.uasset",
+			"ChunkId": "b734e85a8fea97af00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Blueprints/BP_ky_waterBallHit.uasset",
+			"ChunkId": "687d5bb90677179a00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Blueprints/BP_DemoDisplay_2.uasset",
+			"ChunkId": "8a66357c6dd3045f00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Blueprints/BP_DemoDisplay_Enum.uasset",
+			"ChunkId": "9b3b871f6fe4384400000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Blueprints/BP_DemoRoom_2.uasset",
+			"ChunkId": "529cb004e0cd98e100000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Blueprints/BP_DemoRoom_Enum.uasset",
+			"ChunkId": "aaa8aae075a2daba00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Materials/M_DefaultTextMaterialTranslucentUnlit.uasset",
+			"ChunkId": "f27b587a70c5f32400000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Materials/M_DemoRoomTiles.uasset",
+			"ChunkId": "311c8ff4f95c6a8600000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Materials/M_DemoWall.uasset",
+			"ChunkId": "ee1d562f7359678d00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Materials/M_DemoWall_Inst_NamePlate.uasset",
+			"ChunkId": "a5db5df4639d5e6e00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Materials/M_DemoWall_MattPlastic.uasset",
+			"ChunkId": "397001a1d3ea636d00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Materials/M_DemoWallPattern.uasset",
+			"ChunkId": "89b0138a2db8579e00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Materials/M_DemoWallPattern_Inst_Mirrored.uasset",
+			"ChunkId": "a7a083c2c97a48ff00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Materials/M_DemoWallPattern_NoText.uasset",
+			"ChunkId": "cd11c2f3f779994900000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Materials/M_Glass.uasset",
+			"ChunkId": "580a0c6a506d62f000000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Materials/M_LightTube.uasset",
+			"ChunkId": "ef941204bce719cc00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Materials/MI_DemoRoomTiles.uasset",
+			"ChunkId": "733143ffd97f268100000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Materials/MI_DemoWall.uasset",
+			"ChunkId": "2fac4fb956c34b3100000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Materials/MI_DemoWall2.uasset",
+			"ChunkId": "d183cb5d2353bc7300000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Materials/MI_DemoWall3.uasset",
+			"ChunkId": "017c64f52c7e902a00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Materials/MI_DemoWall_Inst_BaseFloor.uasset",
+			"ChunkId": "413d3bd3e29ef91e00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Materials/MI_DemoWallPattern.uasset",
+			"ChunkId": "73f841ec481cdb2600000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Materials/MI_Glass.uasset",
+			"ChunkId": "31af3629385452e800000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Materials/MI_LightTube.uasset",
+			"ChunkId": "49249cdbcfcfc05300000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Meshes/SM_Base.uasset",
+			"ChunkId": "1b690b7a66e73d1d00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Meshes/SM_Base.ubulk",
+			"ChunkId": "1b690b7a66e73d1d00000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Meshes/SM_Base2.uasset",
+			"ChunkId": "366f95e624bd708100000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Meshes/SM_Base2.ubulk",
+			"ChunkId": "366f95e624bd708100000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Meshes/SM_Base_FlatWall.uasset",
+			"ChunkId": "282f1da58c89704e00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Meshes/SM_Base_FlatWall.ubulk",
+			"ChunkId": "282f1da58c89704e00000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Meshes/SM_BaseRoom.uasset",
+			"ChunkId": "d243fc60b402301600000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Meshes/SM_BaseRoom.ubulk",
+			"ChunkId": "d243fc60b402301600000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Meshes/SM_DemoDivider1.uasset",
+			"ChunkId": "08ff6a74bff7458800000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Meshes/SM_DemoDivider1.ubulk",
+			"ChunkId": "08ff6a74bff7458800000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Meshes/SM_DemoDivider2.uasset",
+			"ChunkId": "47038648d6b960de00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Meshes/SM_DemoDivider2.ubulk",
+			"ChunkId": "47038648d6b960de00000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Meshes/SM_DemoRoomBackWall.uasset",
+			"ChunkId": "3c0c6522b2808e0200000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Meshes/SM_DemoRoomBackWall.ubulk",
+			"ChunkId": "3c0c6522b2808e0200000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Meshes/SM_DemoRoomBackWall2.uasset",
+			"ChunkId": "cd7b106334aade2900000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Meshes/SM_DemoRoomBackWall2.ubulk",
+			"ChunkId": "cd7b106334aade2900000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Meshes/SM_DemoRoomClamp.uasset",
+			"ChunkId": "a42269c7767e15e600000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Meshes/SM_DemoRoomClamp.ubulk",
+			"ChunkId": "a42269c7767e15e600000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Meshes/SM_DemoRoomClamp2.uasset",
+			"ChunkId": "ae8726cee7239d1d00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Meshes/SM_DemoRoomClamp2.ubulk",
+			"ChunkId": "ae8726cee7239d1d00000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Meshes/SM_DemoRoomL.uasset",
+			"ChunkId": "a8f474dcff5feec200000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Meshes/SM_DemoRoomL.ubulk",
+			"ChunkId": "a8f474dcff5feec200000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Meshes/SM_DemoRoomLTrim.uasset",
+			"ChunkId": "4a5b4f49e08e09ad00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Meshes/SM_DemoRoomLTrim.ubulk",
+			"ChunkId": "4a5b4f49e08e09ad00000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Meshes/SM_DemoRoomTrim.uasset",
+			"ChunkId": "dd84ae4309bc318000000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Meshes/SM_DemoRoomTrim.ubulk",
+			"ChunkId": "dd84ae4309bc318000000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Meshes/SM_DemoRoomTrim2.uasset",
+			"ChunkId": "264d068063f5398700000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Meshes/SM_DemoRoomTrim2.ubulk",
+			"ChunkId": "264d068063f5398700000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Meshes/SM_DemoRoomTrimAdd.uasset",
+			"ChunkId": "afdb84aa051c14b500000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Meshes/SM_DemoRoomTrimAdd.ubulk",
+			"ChunkId": "afdb84aa051c14b500000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Meshes/SM_DemoRoomU.uasset",
+			"ChunkId": "74268fb6e41e935100000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Meshes/SM_DemoRoomU.ubulk",
+			"ChunkId": "74268fb6e41e935100000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Meshes/SM_DemoRoomU2.uasset",
+			"ChunkId": "6a2bd1ac278dce3000000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Meshes/SM_DemoRoomU2.ubulk",
+			"ChunkId": "6a2bd1ac278dce3000000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Meshes/SM_DemoRoomU_Hole.uasset",
+			"ChunkId": "2c97dcc183d6b6d700000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Meshes/SM_DemoRoomU_Hole.ubulk",
+			"ChunkId": "2c97dcc183d6b6d700000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Meshes/SM_NamePlate.uasset",
+			"ChunkId": "8b110069570dc24c00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Meshes/SM_NamePlate.ubulk",
+			"ChunkId": "8b110069570dc24c00000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Meshes/SM_URoom_Wall.uasset",
+			"ChunkId": "7d167ee3abbad9f900000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Meshes/SM_URoom_Wall.ubulk",
+			"ChunkId": "7d167ee3abbad9f900000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Meshes/SM_URoom_Wall2.uasset",
+			"ChunkId": "2af1b19b5eea755e00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Meshes/SM_URoom_Wall2.ubulk",
+			"ChunkId": "2af1b19b5eea755e00000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Physical_Materials/Concrete.uasset",
+			"ChunkId": "7e8c5f8b6038344200000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Physical_Materials/Metal.uasset",
+			"ChunkId": "06c051ec39fa347400000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Physical_Materials/Rubber.uasset",
+			"ChunkId": "c8c7eb89bac705bd00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Textures/T_Pattern_M.uasset",
+			"ChunkId": "795ffc7e311664c400000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Textures/T_Pattern_M.ubulk",
+			"ChunkId": "795ffc7e311664c400000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Textures/T_RoomTiles_M.uasset",
+			"ChunkId": "b1486b1a09be6c2000000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Textures/T_RoomTiles_M.ubulk",
+			"ChunkId": "b1486b1a09be6c2000000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Textures/T_RoomTiles_N.uasset",
+			"ChunkId": "218178cb2cb10e4400000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Textures/T_RoomTiles_N.ubulk",
+			"ChunkId": "218178cb2cb10e4400000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/EpicContent/Textures/T_UnrealEngineDecal.uasset",
+			"ChunkId": "bb28f2b615b33b9900000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Map/Overview.umap",
+			"ChunkId": "38c0f705ee4a6ce800000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/M_ky_aura9.uasset",
+			"ChunkId": "254acbc14636c89900000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/M_ky_auraWall02.uasset",
+			"ChunkId": "802e32ced35ca0b600000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/M_ky_base.uasset",
+			"ChunkId": "f4ad258dabec6f8700000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/M_ky_base_anime.uasset",
+			"ChunkId": "2420347eb7fa9b5600000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/M_ky_base_turbulence.uasset",
+			"ChunkId": "d2e0a3f54fb71ab400000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/M_ky_chantDecoA.uasset",
+			"ChunkId": "c18b86318f75c01400000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/M_ky_circle01_4x4G_nonD.uasset",
+			"ChunkId": "be39f7b7f538136500000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/M_ky_dust01_4x4.uasset",
+			"ChunkId": "d6b4c82f510a194700000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/M_ky_dynDust.uasset",
+			"ChunkId": "e402c5a92bde70a700000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/M_ky_empty.uasset",
+			"ChunkId": "347b7af7cceea01c00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/M_ky_flare01_primitive.uasset",
+			"ChunkId": "903d57129c4da1f100000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/M_ky_flare_flash.uasset",
+			"ChunkId": "a2c97138944f811a00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/M_ky_flarePillar.uasset",
+			"ChunkId": "c8412bd58e09929100000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/M_ky_flareVert.uasset",
+			"ChunkId": "aa96150c17aca9e900000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/M_ky_Fresnel.uasset",
+			"ChunkId": "8e80f1598f6bfae900000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/M_ky_laser01.uasset",
+			"ChunkId": "d6515bd156263edc00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/M_ky_magicCircle020.uasset",
+			"ChunkId": "87c9b427bde3e02b00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/M_ky_polar.uasset",
+			"ChunkId": "22399afd834b4df300000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/M_ky_polar_primitive.uasset",
+			"ChunkId": "a4b86a994e0991f300000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/M_ky_primitive.uasset",
+			"ChunkId": "9ff3f598fd5728c300000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/M_ky_primitive_dyn2.uasset",
+			"ChunkId": "921ac1c187d4950400000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/M_ky_shockWave03_4x4.uasset",
+			"ChunkId": "ec3ca0c0e5583c9a00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/M_ky_smoke01.uasset",
+			"ChunkId": "7e5662b24acdb1a300000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/M_ky_starDust.uasset",
+			"ChunkId": "000cd85f0716f10d00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/M_ky_stone02.uasset",
+			"ChunkId": "ad2258820ca1c93400000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/M_ky_storm01.uasset",
+			"ChunkId": "dd46f84f3d5db42100000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/M_ky_stormDeco01.uasset",
+			"ChunkId": "d98304ba0cdbfc0000000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/M_ky_subUV01.uasset",
+			"ChunkId": "37f34606f535d0bd00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/M_ky_subUV03.uasset",
+			"ChunkId": "2b83db81f1b4508f00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/M_ky_subUV_dynRGB.uasset",
+			"ChunkId": "e2f4da8e032444af00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/M_ky_thunderForBeam.uasset",
+			"ChunkId": "e3d0e7ba91afcf1500000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/M_ky_trail_primitive.uasset",
+			"ChunkId": "eda7008f4e006b6300000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/M_ky_vortex04_4x4.uasset",
+			"ChunkId": "b60f6b75e49c3a9400000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/M_ky_waterDust02.uasset",
+			"ChunkId": "78dafca432c35ea500000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/Mfunction/MF_ky_AddHilight.uasset",
+			"ChunkId": "4638b1a57452003500000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/Mfunction/MF_ky_MaskToTopUnder.uasset",
+			"ChunkId": "15176bd3804b017c00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/Mfunction/MF_ky_TexController.uasset",
+			"ChunkId": "a5ce61de9cb2501800000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/Mfunction/MF_ky_TexController_primitive.uasset",
+			"ChunkId": "8ab2ea18024af3bf00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/Mfunction/MF_ky_UVcontrol_4x4.uasset",
+			"ChunkId": "d58b9147dd09605b00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/Mfunction/MF_ky_VectorToRadialValue.uasset",
+			"ChunkId": "ec1a142f474e458e00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_aura011_4x4.uasset",
+			"ChunkId": "b25403695b2a8f6900000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_aura011_4x4_nonD.uasset",
+			"ChunkId": "fc5dfc0e3279b87e00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_aura9.uasset",
+			"ChunkId": "a1e10c7d88ebaee000000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_auraWall02_two.uasset",
+			"ChunkId": "ff4cb4fbde5fd99d00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_chantDecoAc.uasset",
+			"ChunkId": "ad8c204ade54407a00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_circle9_4x4c2.uasset",
+			"ChunkId": "b9492de0c840f36100000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_circleDust.uasset",
+			"ChunkId": "c3cf0bcfb655bca200000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_dynDust.uasset",
+			"ChunkId": "5766dee6fc2dfc9300000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_dynDust2.uasset",
+			"ChunkId": "b58243bc7a5f7d1d00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_flare25_4x4.uasset",
+			"ChunkId": "a715cb41125565af00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_flare_flash_trs.uasset",
+			"ChunkId": "c63d031bc49accf000000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_flareVertical03b_4x4.uasset",
+			"ChunkId": "308ed63ea59782d700000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_lightning02_4x4.uasset",
+			"ChunkId": "1aaeb22d57a7f42d00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_lightningDust01_4x4_nonD.uasset",
+			"ChunkId": "9b183d640fa5d09600000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_polar_two.uasset",
+			"ChunkId": "2f1631faa3f6a36300000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_polarC_two.uasset",
+			"ChunkId": "da6ae3dad72103c000000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_polarG_nonD.uasset",
+			"ChunkId": "153e9f687f3698f700000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_primitive2b_trs.uasset",
+			"ChunkId": "c1a4de9e5a5fcfa300000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_primitive_dynB_nonD.uasset",
+			"ChunkId": "ccd9676b4ca6bde800000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_primitive_dynB_two.uasset",
+			"ChunkId": "1f7da06a52713ed000000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_shine01B.uasset",
+			"ChunkId": "b0efa3564864bc6000000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_shine01R.uasset",
+			"ChunkId": "86b038b69854dff500000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_shine01R_nonD.uasset",
+			"ChunkId": "a18d1f620da1a9db00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_shockWave03g_4x4.uasset",
+			"ChunkId": "52c5babe8792ef5800000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_shockwave10R_4x4_nonD.uasset",
+			"ChunkId": "6ec4227a2947b41d00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_shockwave12_4x4.uasset",
+			"ChunkId": "fbefd2700bf76c0100000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_smoke01.uasset",
+			"ChunkId": "51c084779f0a41c400000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_smoke01b.uasset",
+			"ChunkId": "1fe92ebeff0b829200000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_smoke01c.uasset",
+			"ChunkId": "39d0ef1bddd855e000000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_starDust_dis.uasset",
+			"ChunkId": "919421a3eb700c2f00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_starDust_sq.uasset",
+			"ChunkId": "357654d47498d99400000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_storm01_aqua.uasset",
+			"ChunkId": "e7b43add1a11332800000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_storm01_aqua_nonD.uasset",
+			"ChunkId": "327ad02f41605a6a00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_storm01_dark.uasset",
+			"ChunkId": "a4ba58bcf0be35fb00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_storm01_dark_nonD.uasset",
+			"ChunkId": "39ccbb3c7e53c8a600000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_storm01_fire.uasset",
+			"ChunkId": "6c96a765483e3dd900000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_storm01_fire_nonD1.uasset",
+			"ChunkId": "e4da57202508d8ba00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_storm01_nonD.uasset",
+			"ChunkId": "e5ee83f7e4e81fad00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_storm01_thunder.uasset",
+			"ChunkId": "0488aa2fe058f30600000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_storm01_thunder_nonD.uasset",
+			"ChunkId": "12f893d1f64ae4b000000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_stormDeco01_aqua.uasset",
+			"ChunkId": "314b7ee82ab8357500000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_stormDeco01_dark.uasset",
+			"ChunkId": "a89053cff376f11800000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_stormDeco01_fire.uasset",
+			"ChunkId": "ced566c0b12907a200000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_turbulence_smoke2d_trs.uasset",
+			"ChunkId": "2b5eeae520e979b800000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Materials/MI_ky_vortex04B_4x4_two.uasset",
+			"ChunkId": "1ae809e7c1079db400000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Meshes/SM_ky_auraWall_distB_kai.uasset",
+			"ChunkId": "ace51df5b31ad77800000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Meshes/SM_ky_auraWall_distB_kai.ubulk",
+			"ChunkId": "ace51df5b31ad77800000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Meshes/SM_ky_circleDist06.uasset",
+			"ChunkId": "feae740b35d6dd3b00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Meshes/SM_ky_circleDist06.ubulk",
+			"ChunkId": "feae740b35d6dd3b00000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Meshes/SM_ky_cylinder_lowPoly_dist.uasset",
+			"ChunkId": "d282e59aec0fb92300000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Meshes/SM_ky_cylinder_lowPoly_dist.ubulk",
+			"ChunkId": "d282e59aec0fb92300000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Meshes/SM_ky_cylinder_superLow.uasset",
+			"ChunkId": "29587d83f827bad200000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Meshes/SM_ky_cylinder_superLow.ubulk",
+			"ChunkId": "29587d83f827bad200000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Meshes/SM_ky_cylinderBend07.uasset",
+			"ChunkId": "95294589d6f1c66100000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Meshes/SM_ky_cylinderBend07.ubulk",
+			"ChunkId": "95294589d6f1c66100000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Meshes/SM_ky_planeBend.uasset",
+			"ChunkId": "3554eeeecbc1448700000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Meshes/SM_ky_planeBend.ubulk",
+			"ChunkId": "3554eeeecbc1448700000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Meshes/SM_ky_quad_centerRot.uasset",
+			"ChunkId": "23d7172b49a2fc4100000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Meshes/SM_ky_quad_centerRot.ubulk",
+			"ChunkId": "23d7172b49a2fc4100000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Meshes/SM_ky_quads.uasset",
+			"ChunkId": "d8912a0bf01ac5b500000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Meshes/SM_ky_quads.ubulk",
+			"ChunkId": "d8912a0bf01ac5b500000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Meshes/SM_ky_tornado07.uasset",
+			"ChunkId": "d9635334b8b3d5de00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Meshes/SM_ky_tornado07.ubulk",
+			"ChunkId": "d9635334b8b3d5de00000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Meshes/SM_ky_windSmokeVertRot.uasset",
+			"ChunkId": "944217184c24b20f00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Meshes/SM_ky_windSmokeVertRot.ubulk",
+			"ChunkId": "944217184c24b20f00000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Particles/P_ky_aquaStorm.uasset",
+			"ChunkId": "5e651279d0b82a5300000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Particles/P_ky_darkStorm.uasset",
+			"ChunkId": "0dc6229a1ee93aba00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Particles/P_ky_explosion.uasset",
+			"ChunkId": "3cfc31fe4fa098f200000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Particles/P_ky_fireBall.uasset",
+			"ChunkId": "71aea14b81706d0d00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Particles/P_ky_fireStorm.uasset",
+			"ChunkId": "33e24c1a65927c5200000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Particles/P_ky_healAura.uasset",
+			"ChunkId": "fdb953230d19918400000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Particles/P_ky_hit1.uasset",
+			"ChunkId": "e6f1404e7b2afa6b00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Particles/P_ky_hit2.uasset",
+			"ChunkId": "e975d885f13c837100000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Particles/P_ky_laser01.uasset",
+			"ChunkId": "70591deb5d04959e00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Particles/P_ky_lightning1.uasset",
+			"ChunkId": "e74e2b3c3f09f04a00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Particles/P_ky_lightning2.uasset",
+			"ChunkId": "6e0cafd97be6ab5400000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Particles/P_ky_lightning3.uasset",
+			"ChunkId": "b42e48b3e1e4f17900000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Particles/P_ky_magicCircle1.uasset",
+			"ChunkId": "224f1d17d49f1ed800000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Particles/P_ky_shootingStar1.uasset",
+			"ChunkId": "9183226ea8670fc500000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Particles/P_ky_shotShockwave.uasset",
+			"ChunkId": "59022d5ff582ae1f00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Particles/P_ky_storm.uasset",
+			"ChunkId": "e164bd44721788a500000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Particles/P_ky_thunderBall.uasset",
+			"ChunkId": "7ea48d3c4c68d6db00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Particles/P_ky_ThunderBallHit.uasset",
+			"ChunkId": "4b3b63b1202db9e500000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Particles/P_ky_thunderStorm.uasset",
+			"ChunkId": "a35da7e9c04adc1100000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Particles/P_ky_waterBall.uasset",
+			"ChunkId": "fe2206234c25e8af00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Particles/P_ky_waterBallHit.uasset",
+			"ChunkId": "48f054a6eda152a400000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_aura011_4x4.uasset",
+			"ChunkId": "d585e7cd8f40306400000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_aura011_4x4.ubulk",
+			"ChunkId": "d585e7cd8f40306400000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_auraWallWhite_4x4.uasset",
+			"ChunkId": "d0d4fbd9617aab0000000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_auraWallWhite_4x4.ubulk",
+			"ChunkId": "d0d4fbd9617aab0000000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_bg.uasset",
+			"ChunkId": "d6b5f4365aa96f8f00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_bg_LC.uasset",
+			"ChunkId": "ad6e21f06bb2a15900000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_chantDecoC.uasset",
+			"ChunkId": "82e20fef697d224a00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_chantDecoC.ubulk",
+			"ChunkId": "82e20fef697d224a00000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_circle01_4x4.uasset",
+			"ChunkId": "4bf6dd7b91724e9500000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_circle01_4x4.ubulk",
+			"ChunkId": "4bf6dd7b91724e9500000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_circle9_4x4.uasset",
+			"ChunkId": "7d96d397fdf8360800000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_circle9_4x4.ubulk",
+			"ChunkId": "7d96d397fdf8360800000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_circleDust.uasset",
+			"ChunkId": "da37e013ab837efa00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_circleDust.ubulk",
+			"ChunkId": "da37e013ab837efa00000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_deco_doom.uasset",
+			"ChunkId": "fcadc26e5f7aff5300000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_deco_doom.ubulk",
+			"ChunkId": "fcadc26e5f7aff5300000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_deco_rainbow.uasset",
+			"ChunkId": "d282bc2dfab3230800000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_deco_rainbow.ubulk",
+			"ChunkId": "d282bc2dfab3230800000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_decoLines.uasset",
+			"ChunkId": "ffd1dd41cb2a613700000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_decoLines.ubulk",
+			"ChunkId": "ffd1dd41cb2a613700000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_decoLinesB.uasset",
+			"ChunkId": "0166b34480e1aa3200000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_decoLinesB.ubulk",
+			"ChunkId": "0166b34480e1aa3200000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_dist_noise.uasset",
+			"ChunkId": "987ed7e61ddf18a900000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_dust01_4x4.uasset",
+			"ChunkId": "b4115f5a983c1aea00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_dust01_4x4.ubulk",
+			"ChunkId": "b4115f5a983c1aea00000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_dust_longStar.uasset",
+			"ChunkId": "ed9f48a65e2c215500000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_dust_longStar.ubulk",
+			"ChunkId": "ed9f48a65e2c215500000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_flare25_4x4.uasset",
+			"ChunkId": "bd698526b372be3a00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_flare25_4x4.ubulk",
+			"ChunkId": "bd698526b372be3a00000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_flare3.uasset",
+			"ChunkId": "5e0a8a979f460b9c00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_flare3.ubulk",
+			"ChunkId": "5e0a8a979f460b9c00000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_flare_a.uasset",
+			"ChunkId": "e1d58ba21af4e8c500000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_flare_a.ubulk",
+			"ChunkId": "e1d58ba21af4e8c500000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_flareVert.uasset",
+			"ChunkId": "46ddaf42fe3e4b3400000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_flareVert.ubulk",
+			"ChunkId": "46ddaf42fe3e4b3400000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_flareVertical02.uasset",
+			"ChunkId": "485048a323fe9ef000000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_flareVertical02.ubulk",
+			"ChunkId": "485048a323fe9ef000000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_flareVertical03_4x4.uasset",
+			"ChunkId": "166f9ce2f7000d2a00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_flareVertical03_4x4.ubulk",
+			"ChunkId": "166f9ce2f7000d2a00000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_lightning02_4x4.uasset",
+			"ChunkId": "e1d97e15223a7bc100000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_lightning02_4x4.ubulk",
+			"ChunkId": "e1d97e15223a7bc100000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_lightningDust01_4x4.uasset",
+			"ChunkId": "a7c3863ead391c5800000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_lightningDust01_4x4.ubulk",
+			"ChunkId": "a7c3863ead391c5800000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_magicCircle020.uasset",
+			"ChunkId": "20915301354d756100000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_magicCircle020.ubulk",
+			"ChunkId": "20915301354d756100000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_maskCircle.uasset",
+			"ChunkId": "d543f2139d8e5e9800000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_maskCircle.ubulk",
+			"ChunkId": "d543f2139d8e5e9800000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_maskRGB3.uasset",
+			"ChunkId": "24ced509ae6a410000000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_maskRGB3.ubulk",
+			"ChunkId": "24ced509ae6a410000000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_maskRGB5.uasset",
+			"ChunkId": "ba66e5944c01e5a200000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_maskRGB5.ubulk",
+			"ChunkId": "ba66e5944c01e5a200000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_noise.uasset",
+			"ChunkId": "ccb6af5a4de9b22300000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_noise.ubulk",
+			"ChunkId": "ccb6af5a4de9b22300000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_noise13_sml_nor.uasset",
+			"ChunkId": "3a009502cfdcc61400000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_noise13_sml_nor.ubulk",
+			"ChunkId": "3a009502cfdcc61400000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_noise17.uasset",
+			"ChunkId": "c8f17e3004ebc2de00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_noise17.ubulk",
+			"ChunkId": "c8f17e3004ebc2de00000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_noise3.uasset",
+			"ChunkId": "7f982ffcdf745c4500000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_noise3.ubulk",
+			"ChunkId": "7f982ffcdf745c4500000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_noise4.uasset",
+			"ChunkId": "1438d6f606c9c35d00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_noise4.ubulk",
+			"ChunkId": "1438d6f606c9c35d00000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_noise5.uasset",
+			"ChunkId": "5047a50f3aeaed0500000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_noise5.ubulk",
+			"ChunkId": "5047a50f3aeaed0500000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_noise6.uasset",
+			"ChunkId": "5546798c23e12fb500000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_noise6.ubulk",
+			"ChunkId": "5546798c23e12fb500000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_shine01_4x4.uasset",
+			"ChunkId": "c9605965a8ab9a2700000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_shine01_4x4.ubulk",
+			"ChunkId": "c9605965a8ab9a2700000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_shockWave03_4x4.uasset",
+			"ChunkId": "cdd3e87aba79fa1300000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_shockWave03_4x4.ubulk",
+			"ChunkId": "cdd3e87aba79fa1300000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_shockwave10_4x4.uasset",
+			"ChunkId": "b8ab090fce74bd6500000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_shockwave10_4x4.ubulk",
+			"ChunkId": "b8ab090fce74bd6500000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_shockwave12_4x4.uasset",
+			"ChunkId": "8784a8d3297ce81700000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_shockwave12_4x4.ubulk",
+			"ChunkId": "8784a8d3297ce81700000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_smoke03.uasset",
+			"ChunkId": "8e2ad71468a190da00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_smoke1.uasset",
+			"ChunkId": "cb7886b19e734dc200000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_smoke1.ubulk",
+			"ChunkId": "cb7886b19e734dc200000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_smoke2.uasset",
+			"ChunkId": "89dd8a11baaf786000000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_smoke2.ubulk",
+			"ChunkId": "89dd8a11baaf786000000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_smoke_kai.uasset",
+			"ChunkId": "60e341a72e55c56c00000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_smoke_kai.ubulk",
+			"ChunkId": "60e341a72e55c56c00000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_stone02_2x2.uasset",
+			"ChunkId": "d53d636e76ceb15300000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_stone02_2x2.ubulk",
+			"ChunkId": "d53d636e76ceb15300000002"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_vortex04_4x4.uasset",
+			"ChunkId": "28339a75b6f2533200000001"
+		},
+		{
+			"Path": "MyProject/Content/FXVarietyPack/Textures/T_ky_vortex04_4x4.ubulk",
+			"ChunkId": "28339a75b6f2533200000002"
 		},
 		{
 			"Path": "MyProject/Content/I_Damageable.uasset",
@@ -10122,6 +12314,18 @@
 			]
 		},
 		{
+			"Name": "/Engine/EngineMaterials/BlendFunc_DefBase",
+			"ExportBundleChunkIds": [
+				"34b40296d0d3844e00000001"
+			]
+		},
+		{
+			"Name": "/Engine/EngineMaterials/BlendFunc_DefBlend",
+			"ExportBundleChunkIds": [
+				"b1dd9666d4d25cf600000001"
+			]
+		},
+		{
 			"Name": "/Engine/EngineMaterials/DefaultBloomKernel",
 			"ExportBundleChunkIds": [
 				"cbab6b01dd8b7ffe00000001"
@@ -10617,6 +12821,12 @@
 			]
 		},
 		{
+			"Name": "/Engine/Functions/Engine_MaterialFunctions01/Gradient/DiamondGradient",
+			"ExportBundleChunkIds": [
+				"aa857baf732182e300000001"
+			]
+		},
+		{
 			"Name": "/Engine/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient",
 			"ExportBundleChunkIds": [
 				"e43855b9d402d6d500000001"
@@ -10668,6 +12878,12 @@
 			"Name": "/Engine/Functions/Engine_MaterialFunctions01/Texturing/ScaleUVsByCenter",
 			"ExportBundleChunkIds": [
 				"e786ac693542bdc000000001"
+			]
+		},
+		{
+			"Name": "/Engine/Functions/Engine_MaterialFunctions02/Fresnel_Function",
+			"ExportBundleChunkIds": [
+				"76db413b8ed324e000000001"
 			]
 		},
 		{
@@ -10821,6 +13037,12 @@
 			]
 		},
 		{
+			"Name": "/Engine/Functions/Engine_MaterialFunctions03/Blends/Blend_Screen",
+			"ExportBundleChunkIds": [
+				"960861c4668616b700000001"
+			]
+		},
+		{
 			"Name": "/Engine/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth",
 			"ExportBundleChunkIds": [
 				"86bb9e26db3da1a600000001"
@@ -10830,6 +13052,12 @@
 			"Name": "/Engine/Functions/Engine_MaterialFunctions03/Procedurals/GeneratedBand",
 			"ExportBundleChunkIds": [
 				"e50b37b3c114a22b00000001"
+			]
+		},
+		{
+			"Name": "/Engine/Functions/Engine_MaterialFunctions03/Texturing/TwoSidedTexturing",
+			"ExportBundleChunkIds": [
+				"d812587583a9535d00000001"
 			]
 		},
 		{
@@ -11022,12 +13250,30 @@
 			"Name": "/Game/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/E/GP/22PD314FCWY4ZK61DE3XZC"
 		},
 		{
-			"Name": "/Game/Art/BlockOut/ld",
+			"Name": "/Game/Art/BlockOut/ld_1",
 			"ExportBundleChunkIds": [
-				"06b5e9a6366f076500000001"
+				"37f5b17d484bd55700000001"
 			],
 			"BulkDataChunkIds": [
-				"06b5e9a6366f076500000002"
+				"37f5b17d484bd55700000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/BlockOut/ld_2",
+			"ExportBundleChunkIds": [
+				"746e078b093fea7700000001"
+			],
+			"BulkDataChunkIds": [
+				"746e078b093fea7700000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/BlockOut/ld2",
+			"ExportBundleChunkIds": [
+				"8ef083a593ac55cf00000001"
+			],
+			"BulkDataChunkIds": [
+				"8ef083a593ac55cf00000002"
 			]
 		},
 		{
@@ -11706,6 +13952,99 @@
 			]
 		},
 		{
+			"Name": "/Game/Art/Prefabs/SM_Barrier_01a/MI_Barrier_01a",
+			"ExportBundleChunkIds": [
+				"11c7e6b29cbbbd4000000001"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Barrier_01a/MI_Barrier_dark_01a",
+			"ExportBundleChunkIds": [
+				"59f356a7f0df21d900000001"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Barrier_01a/MI_Barrier_light_01a",
+			"ExportBundleChunkIds": [
+				"01bcaffad43707f700000001"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Barrier_01a/SM_barrier_dark_01a",
+			"ExportBundleChunkIds": [
+				"842b4637295155d600000001"
+			],
+			"BulkDataChunkIds": [
+				"842b4637295155d600000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Barrier_01a/SM_barrier_light_01a",
+			"ExportBundleChunkIds": [
+				"7e06b218267e1e9400000001"
+			],
+			"BulkDataChunkIds": [
+				"7e06b218267e1e9400000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Barrier_01a/SM_barrier_low"
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Barrier_01a/SM_barrier_low_DefaultMaterial_BaseColor",
+			"ExportBundleChunkIds": [
+				"f23723f9e3c955b800000001"
+			],
+			"BulkDataChunkIds": [
+				"f23723f9e3c955b800000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Barrier_01a/SM_barrier_low_DefaultMaterial_Normal",
+			"ExportBundleChunkIds": [
+				"958b76a0b7772d3400000001"
+			],
+			"BulkDataChunkIds": [
+				"958b76a0b7772d3400000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Barrier_01a/SM_barrier_low_DefaultMaterial_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"7e52b594b929dd4d00000001"
+			],
+			"BulkDataChunkIds": [
+				"7e52b594b929dd4d00000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Barrier_01a/SM_barrier_mid_01a",
+			"ExportBundleChunkIds": [
+				"1c5b14a44dd5dc0000000001"
+			],
+			"BulkDataChunkIds": [
+				"1c5b14a44dd5dc0000000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Barrier_01a/T_barrier_dark_DefaultMaterial_BaseColor",
+			"ExportBundleChunkIds": [
+				"9fc3b4fb96aec97a00000001"
+			],
+			"BulkDataChunkIds": [
+				"9fc3b4fb96aec97a00000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Barrier_01a/T_barrier_light_DefaultMaterial_BaseColor",
+			"ExportBundleChunkIds": [
+				"c2fc6d6891a1319f00000001"
+			],
+			"BulkDataChunkIds": [
+				"c2fc6d6891a1319f00000002"
+			]
+		},
+		{
 			"Name": "/Game/Art/Prefabs/SM_BatBanner_01a/MI_BatBanner_01a",
 			"ExportBundleChunkIds": [
 				"89af2d044872aa9600000001"
@@ -12129,6 +14468,186 @@
 			]
 		},
 		{
+			"Name": "/Game/Art/Prefabs/SM_Corner_mid_01a/MI_Corner_mid_dark_01a",
+			"ExportBundleChunkIds": [
+				"8ae915098014da3900000001"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Corner_mid_01a/MI_Corner_mid_light_01a",
+			"ExportBundleChunkIds": [
+				"3c3a4d003abf8af400000001"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Corner_mid_01a/MI_Corner_mid_mid_01a",
+			"ExportBundleChunkIds": [
+				"df2e48c5c64977a200000001"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Corner_mid_01a/SM_corner_mid_01a",
+			"ExportBundleChunkIds": [
+				"795840c91ffaca7e00000001"
+			],
+			"BulkDataChunkIds": [
+				"795840c91ffaca7e00000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Corner_mid_01a/SM_corner_mid_dark_01a",
+			"ExportBundleChunkIds": [
+				"40da7ac5cd285c3600000001"
+			],
+			"BulkDataChunkIds": [
+				"40da7ac5cd285c3600000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Corner_mid_01a/SM_corner_mid_light_01a",
+			"ExportBundleChunkIds": [
+				"f2b7875c2321f8f500000001"
+			],
+			"BulkDataChunkIds": [
+				"f2b7875c2321f8f500000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Corner_mid_01a/T_corner_mid_dark_DefaultMaterial_BaseColor",
+			"ExportBundleChunkIds": [
+				"2cf5210338654b4300000001"
+			],
+			"BulkDataChunkIds": [
+				"2cf5210338654b4300000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Corner_mid_01a/T_corner_mid_high_DefaultMaterial_BaseColor",
+			"ExportBundleChunkIds": [
+				"5e608ddde76726e300000001"
+			],
+			"BulkDataChunkIds": [
+				"5e608ddde76726e300000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Corner_mid_01a/T_corner_mid_mid_DefaultMaterial_BaseColor",
+			"ExportBundleChunkIds": [
+				"ab82bca8d38ad6a100000001"
+			],
+			"BulkDataChunkIds": [
+				"ab82bca8d38ad6a100000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Corner_mid_01a/T_corner_mid_mid_DefaultMaterial_Normal",
+			"ExportBundleChunkIds": [
+				"795259b691c418ec00000001"
+			],
+			"BulkDataChunkIds": [
+				"795259b691c418ec00000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Corner_mid_01a/T_corner_mid_mid_DefaultMaterial_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"190a2d293413443d00000001"
+			],
+			"BulkDataChunkIds": [
+				"190a2d293413443d00000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Corner_small_01a/MI_Corner_small_01a",
+			"ExportBundleChunkIds": [
+				"92e83a8b0108047f00000001"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Corner_small_01a/MI_Corner_small_dark_01a",
+			"ExportBundleChunkIds": [
+				"7b8f663c3704561700000001"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Corner_small_01a/MI_Corner_small_light_01a",
+			"ExportBundleChunkIds": [
+				"53e753b103a5570a00000001"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Corner_small_01a/SM_corner_small_01a",
+			"ExportBundleChunkIds": [
+				"c60604d7c181040200000001"
+			],
+			"BulkDataChunkIds": [
+				"c60604d7c181040200000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Corner_small_01a/SM_corner_small_dark_01a",
+			"ExportBundleChunkIds": [
+				"4ffb7a1efb4864f500000001"
+			],
+			"BulkDataChunkIds": [
+				"4ffb7a1efb4864f500000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Corner_small_01a/SM_corner_small_light_01a",
+			"ExportBundleChunkIds": [
+				"3485070c41bf8e8600000001"
+			],
+			"BulkDataChunkIds": [
+				"3485070c41bf8e8600000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Corner_small_01a/T_corner_small_dark_DefaultMaterial_BaseColor",
+			"ExportBundleChunkIds": [
+				"3193c2dd8d301d6100000001"
+			],
+			"BulkDataChunkIds": [
+				"3193c2dd8d301d6100000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Corner_small_01a/T_corner_small_light_DefaultMaterial_BaseColor",
+			"ExportBundleChunkIds": [
+				"071bee8e82e92c1000000001"
+			],
+			"BulkDataChunkIds": [
+				"071bee8e82e92c1000000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Corner_small_01a/T_corner_small_mid_DefaultMaterial_BaseColor",
+			"ExportBundleChunkIds": [
+				"932667aa3620c74600000001"
+			],
+			"BulkDataChunkIds": [
+				"932667aa3620c74600000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Corner_small_01a/T_corner_small_mid_DefaultMaterial_Normal",
+			"ExportBundleChunkIds": [
+				"7bb629cce2b2357300000001"
+			],
+			"BulkDataChunkIds": [
+				"7bb629cce2b2357300000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Corner_small_01a/T_corner_small_mid_DefaultMaterial_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"dd3fbaccf5e7254800000001"
+			],
+			"BulkDataChunkIds": [
+				"dd3fbaccf5e7254800000002"
+			]
+		},
+		{
 			"Name": "/Game/Art/Prefabs/SM_DecorativePilar_01a/MI_DecorativePilar_01a",
 			"ExportBundleChunkIds": [
 				"eb335e9dae56355c00000001"
@@ -12171,45 +14690,348 @@
 			]
 		},
 		{
-			"Name": "/Game/Art/Prefabs/SM_Escalier_01a/MI_SM_Escalier_01a",
+			"Name": "/Game/Art/Prefabs/SM_fence_01a/MI_Fence_01a",
 			"ExportBundleChunkIds": [
-				"7a4880e7d76ee47600000001"
+				"abebb3e868dc5ca500000001"
 			]
 		},
 		{
-			"Name": "/Game/Art/Prefabs/SM_Escalier_01a/SM_Escalier_1_low",
+			"Name": "/Game/Art/Prefabs/SM_fence_01a/MI_Fence_dark_01a",
 			"ExportBundleChunkIds": [
-				"15ab2d8e819e145600000001"
-			],
-			"BulkDataChunkIds": [
-				"15ab2d8e819e145600000002"
+				"d4a2b712d89bf21e00000001"
 			]
 		},
 		{
-			"Name": "/Game/Art/Prefabs/SM_Escalier_01a/SM_Escalier_1_low_DefaultMaterial_BaseColor",
+			"Name": "/Game/Art/Prefabs/SM_fence_01a/MI_Fence_light_01a",
 			"ExportBundleChunkIds": [
-				"42a59cfe9d4882c400000001"
-			],
-			"BulkDataChunkIds": [
-				"42a59cfe9d4882c400000002"
+				"9e2a1c117d5e7cc300000001"
 			]
 		},
 		{
-			"Name": "/Game/Art/Prefabs/SM_Escalier_01a/SM_Escalier_1_low_DefaultMaterial_Normal",
+			"Name": "/Game/Art/Prefabs/SM_fence_01a/SM_fence_01a",
 			"ExportBundleChunkIds": [
-				"70a9335232c8cd3800000001"
+				"642ea563dd88035700000001"
 			],
 			"BulkDataChunkIds": [
-				"70a9335232c8cd3800000002"
+				"642ea563dd88035700000002"
 			]
 		},
 		{
-			"Name": "/Game/Art/Prefabs/SM_Escalier_01a/SM_Escalier_1_low_DefaultMaterial_OcclusionRoughnessMetallic",
+			"Name": "/Game/Art/Prefabs/SM_fence_01a/SM_fence_dark_01a",
 			"ExportBundleChunkIds": [
-				"71f446a1c38f7d1000000001"
+				"b6f924ecb823652800000001"
 			],
 			"BulkDataChunkIds": [
-				"71f446a1c38f7d1000000002"
+				"b6f924ecb823652800000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_fence_01a/SM_fence_light_01a",
+			"ExportBundleChunkIds": [
+				"d732ece15c6c5e3a00000001"
+			],
+			"BulkDataChunkIds": [
+				"d732ece15c6c5e3a00000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_fence_01a/T_fence_dark_DefaultMaterial_BaseColor",
+			"ExportBundleChunkIds": [
+				"5316938a55b3610f00000001"
+			],
+			"BulkDataChunkIds": [
+				"5316938a55b3610f00000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_fence_01a/T_fence_light_DefaultMaterial_BaseColor",
+			"ExportBundleChunkIds": [
+				"56c3128d1a3c1d2e00000001"
+			],
+			"BulkDataChunkIds": [
+				"56c3128d1a3c1d2e00000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_fence_01a/T_fence_mid_DefaultMaterial_BaseColor",
+			"ExportBundleChunkIds": [
+				"14ed5e2c8aa4895a00000001"
+			],
+			"BulkDataChunkIds": [
+				"14ed5e2c8aa4895a00000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_fence_01a/T_fence_mid_DefaultMaterial_Normal",
+			"ExportBundleChunkIds": [
+				"f62ab0ab47fef1f600000001"
+			],
+			"BulkDataChunkIds": [
+				"f62ab0ab47fef1f600000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_fence_01a/T_fence_mid_DefaultMaterial_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"cb1a22c36e5c7c8200000001"
+			],
+			"BulkDataChunkIds": [
+				"cb1a22c36e5c7c8200000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Flag_01a/MI_Flag_blue_01a",
+			"ExportBundleChunkIds": [
+				"4fbf31ccbba5a07c00000001"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Flag_01a/MI_Flag_green_01a",
+			"ExportBundleChunkIds": [
+				"13d7b34b7c5f981d00000001"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Flag_01a/MI_Flag_orange_01a",
+			"ExportBundleChunkIds": [
+				"56bd2126e8dde76f00000001"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Flag_01a/MI_Flag_pink_01a",
+			"ExportBundleChunkIds": [
+				"ef98160d3982e1ad00000001"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Flag_01a/MI_Flag_red_01a",
+			"ExportBundleChunkIds": [
+				"0795bf191a1f36d100000001"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Flag_01a/SM_Banner_02a"
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Flag_01a/SM_Banner_blue_02a",
+			"ExportBundleChunkIds": [
+				"79967611e326f2c200000001"
+			],
+			"BulkDataChunkIds": [
+				"79967611e326f2c200000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Flag_01a/SM_Banner_green_02a",
+			"ExportBundleChunkIds": [
+				"604fb469818b368200000001"
+			],
+			"BulkDataChunkIds": [
+				"604fb469818b368200000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Flag_01a/SM_Banner_orange_02a",
+			"ExportBundleChunkIds": [
+				"a3a97707db5c1a6a00000001"
+			],
+			"BulkDataChunkIds": [
+				"a3a97707db5c1a6a00000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Flag_01a/SM_Banner_pink_02a",
+			"ExportBundleChunkIds": [
+				"43f7947a8db8468a00000001"
+			],
+			"BulkDataChunkIds": [
+				"43f7947a8db8468a00000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Flag_01a/SM_Banner_red_02a",
+			"ExportBundleChunkIds": [
+				"6588724abec7fe2800000001"
+			],
+			"BulkDataChunkIds": [
+				"6588724abec7fe2800000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Flag_01a/T_Banner_02a_BaseColor_a",
+			"ExportBundleChunkIds": [
+				"3fe5e29d9c20f3fc00000001"
+			],
+			"BulkDataChunkIds": [
+				"3fe5e29d9c20f3fc00000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Flag_01a/T_Banner_02a_BaseColor_b",
+			"ExportBundleChunkIds": [
+				"fffe3719573881b800000001"
+			],
+			"BulkDataChunkIds": [
+				"fffe3719573881b800000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Flag_01a/T_Banner_02a_BaseColor_c",
+			"ExportBundleChunkIds": [
+				"e1b9098c70a14eb500000001"
+			],
+			"BulkDataChunkIds": [
+				"e1b9098c70a14eb500000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Flag_01a/T_Banner_02a_BaseColor_d",
+			"ExportBundleChunkIds": [
+				"7e8eebd749e9390600000001"
+			],
+			"BulkDataChunkIds": [
+				"7e8eebd749e9390600000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Flag_01a/T_Banner_02a_BaseColor_e",
+			"ExportBundleChunkIds": [
+				"5d8274e97898e3bd00000001"
+			],
+			"BulkDataChunkIds": [
+				"5d8274e97898e3bd00000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Flag_01a/T_Banner_02a_Normal",
+			"ExportBundleChunkIds": [
+				"1a7edf09801c4ac800000001"
+			],
+			"BulkDataChunkIds": [
+				"1a7edf09801c4ac800000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Flag_01a/T_Banner_02a_ORM",
+			"ExportBundleChunkIds": [
+				"5cf83f6a5f26270700000001"
+			],
+			"BulkDataChunkIds": [
+				"5cf83f6a5f26270700000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Flag_pillar_01a/MI_Flag_pillar_01a",
+			"ExportBundleChunkIds": [
+				"74c61918fad8c9ae00000001"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Flag_pillar_01a/MI_Flag_pillar_dark_01a",
+			"ExportBundleChunkIds": [
+				"e135a6ef9ab7550600000001"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Flag_pillar_01a/MI_Flag_pillar_default_01a",
+			"ExportBundleChunkIds": [
+				"5eb1fce51fa71f4600000001"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Flag_pillar_01a/MI_Flag_pillar_light_01a",
+			"ExportBundleChunkIds": [
+				"ba43399ec609ff6a00000001"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Flag_pillar_01a/SM_FlagPilar_01a",
+			"ExportBundleChunkIds": [
+				"92cd61df2c29adfd00000001"
+			],
+			"BulkDataChunkIds": [
+				"92cd61df2c29adfd00000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Flag_pillar_01a/SM_FlagPilar_dark_01a",
+			"ExportBundleChunkIds": [
+				"cf0954378e62889f00000001"
+			],
+			"BulkDataChunkIds": [
+				"cf0954378e62889f00000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Flag_pillar_01a/SM_FlagPilar_default_01a",
+			"ExportBundleChunkIds": [
+				"a9b68af34ea5d80400000001"
+			],
+			"BulkDataChunkIds": [
+				"a9b68af34ea5d80400000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Flag_pillar_01a/SM_FlagPilar_light_01a",
+			"ExportBundleChunkIds": [
+				"77c300556f1d669300000001"
+			],
+			"BulkDataChunkIds": [
+				"77c300556f1d669300000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Flag_pillar_01a/T_FlagPilar_01a_dark_DefaultMaterial_BaseColor",
+			"ExportBundleChunkIds": [
+				"afa8279e0f28444e00000001"
+			],
+			"BulkDataChunkIds": [
+				"afa8279e0f28444e00000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Flag_pillar_01a/T_FlagPilar_01a_default_DefaultMaterial_BaseColor",
+			"ExportBundleChunkIds": [
+				"d90a2a54cfca94f300000001"
+			],
+			"BulkDataChunkIds": [
+				"d90a2a54cfca94f300000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Flag_pillar_01a/T_FlagPilar_01a_light_DefaultMaterial_BaseColor",
+			"ExportBundleChunkIds": [
+				"5633d0baf97d54ef00000001"
+			],
+			"BulkDataChunkIds": [
+				"5633d0baf97d54ef00000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Flag_pillar_01a/T_FlagPilar_01a_mid_DefaultMaterial_BaseColor",
+			"ExportBundleChunkIds": [
+				"41df26a1417aa54200000001"
+			],
+			"BulkDataChunkIds": [
+				"41df26a1417aa54200000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Flag_pillar_01a/T_FlagPilar_01a_mid_DefaultMaterial_Normal",
+			"ExportBundleChunkIds": [
+				"6ea2034dd009f66100000001"
+			],
+			"BulkDataChunkIds": [
+				"6ea2034dd009f66100000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Flag_pillar_01a/T_FlagPilar_01a_mid_DefaultMaterial_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"5c4ecd38282e80bf00000001"
+			],
+			"BulkDataChunkIds": [
+				"5c4ecd38282e80bf00000002"
 			]
 		},
 		{
@@ -12219,39 +15041,81 @@
 			]
 		},
 		{
-			"Name": "/Game/Art/Prefabs/SM_Floor_01a/SM_SunDialRoom_01a",
+			"Name": "/Game/Art/Prefabs/SM_Floor_01a/SM_SunDialRoom_01b",
 			"ExportBundleChunkIds": [
-				"028aaad7be1c01f300000001"
+				"01988672ed7711d500000001"
 			],
 			"BulkDataChunkIds": [
-				"028aaad7be1c01f300000002"
+				"01988672ed7711d500000002"
 			]
 		},
 		{
-			"Name": "/Game/Art/Prefabs/SM_Floor_01a/T_SunDialRoom_BaseColor",
+			"Name": "/Game/Art/Prefabs/SM_Floor_01a/T_SunDialRoom_01b_BaseColor",
 			"ExportBundleChunkIds": [
-				"eac7f53bd31da30a00000001"
+				"24716e2f4e7a9e8700000001"
 			],
 			"BulkDataChunkIds": [
-				"eac7f53bd31da30a00000002"
+				"24716e2f4e7a9e8700000002"
 			]
 		},
 		{
-			"Name": "/Game/Art/Prefabs/SM_Floor_01a/T_SunDialRoom_Normal",
+			"Name": "/Game/Art/Prefabs/SM_Floor_01a/T_SunDialRoom_01b_Normal",
 			"ExportBundleChunkIds": [
-				"15ece84110955f7200000001"
+				"0ff697d9bfbd183a00000001"
 			],
 			"BulkDataChunkIds": [
-				"15ece84110955f7200000002"
+				"0ff697d9bfbd183a00000002"
 			]
 		},
 		{
-			"Name": "/Game/Art/Prefabs/SM_Floor_01a/T_SunDialRoom_ORM",
+			"Name": "/Game/Art/Prefabs/SM_Floor_01a/T_SunDialRoom_01b_ORM",
 			"ExportBundleChunkIds": [
-				"694f4cc065f6fe3c00000001"
+				"e6dafbb5e609ff7d00000001"
 			],
 			"BulkDataChunkIds": [
-				"694f4cc065f6fe3c00000002"
+				"e6dafbb5e609ff7d00000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Floor_02a/MI_Floor_02a",
+			"ExportBundleChunkIds": [
+				"4d56d47e211c87b100000001"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Floor_02a/SM_floor_02a_low",
+			"ExportBundleChunkIds": [
+				"0108636d0d1274b100000001"
+			],
+			"BulkDataChunkIds": [
+				"0108636d0d1274b100000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Floor_02a/T_floor_02a_mid_DefaultMaterial_BaseColor",
+			"ExportBundleChunkIds": [
+				"be8b39db0df54e8f00000001"
+			],
+			"BulkDataChunkIds": [
+				"be8b39db0df54e8f00000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Floor_02a/T_floor_02a_mid_DefaultMaterial_Normal",
+			"ExportBundleChunkIds": [
+				"79ad5cb375bc767900000001"
+			],
+			"BulkDataChunkIds": [
+				"79ad5cb375bc767900000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Floor_02a/T_floor_02a_mid_DefaultMaterial_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"772ed5d9725e19a800000001"
+			],
+			"BulkDataChunkIds": [
+				"772ed5d9725e19a800000002"
 			]
 		},
 		{
@@ -12907,6 +15771,492 @@
 			"BulkDataChunkIds": [
 				"103c46272833e8d800000002"
 			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Stairs_01a/MI_SM_Escalier_01a",
+			"ExportBundleChunkIds": [
+				"34530d6f0994194e00000001"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Stairs_01a/SM_Escalier_1_low",
+			"ExportBundleChunkIds": [
+				"2f497739aa5af3c000000001"
+			],
+			"BulkDataChunkIds": [
+				"2f497739aa5af3c000000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Stairs_01a/SM_Escalier_1_low_DefaultMaterial_BaseColor",
+			"ExportBundleChunkIds": [
+				"b25b6d24b1d1d79300000001"
+			],
+			"BulkDataChunkIds": [
+				"b25b6d24b1d1d79300000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Stairs_01a/SM_Escalier_1_low_DefaultMaterial_Normal",
+			"ExportBundleChunkIds": [
+				"02403af7a0faff4900000001"
+			],
+			"BulkDataChunkIds": [
+				"02403af7a0faff4900000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Stairs_01a/SM_Escalier_1_low_DefaultMaterial_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"514c00c94d43b28800000001"
+			],
+			"BulkDataChunkIds": [
+				"514c00c94d43b28800000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Stairs_02a/MI_Stairs_02a",
+			"ExportBundleChunkIds": [
+				"9a057920282355be00000001"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Stairs_02a/SM_Stair_02a_low",
+			"ExportBundleChunkIds": [
+				"3e65d37c38638f1300000001"
+			],
+			"BulkDataChunkIds": [
+				"3e65d37c38638f1300000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Stairs_02a/T_Stair_02a_mid_DefaultMaterial_BaseColor",
+			"ExportBundleChunkIds": [
+				"d3243ae779d64bfc00000001"
+			],
+			"BulkDataChunkIds": [
+				"d3243ae779d64bfc00000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Stairs_02a/T_Stair_02a_mid_DefaultMaterial_Normal",
+			"ExportBundleChunkIds": [
+				"8189c2b04ec5b1a800000001"
+			],
+			"BulkDataChunkIds": [
+				"8189c2b04ec5b1a800000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Stairs_02a/T_Stair_02a_mid_DefaultMaterial_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"b4821676eadb7dde00000001"
+			],
+			"BulkDataChunkIds": [
+				"b4821676eadb7dde00000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_Base_01a/MI_Base_dark_01a",
+			"ExportBundleChunkIds": [
+				"b618e4b1fab79e2700000001"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_Base_01a/MI_Base_mid_01a",
+			"ExportBundleChunkIds": [
+				"f45adedad7e3747800000001"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_Base_01a/SM_Base_dark_01a",
+			"ExportBundleChunkIds": [
+				"d4ce6367a49e193600000001"
+			],
+			"BulkDataChunkIds": [
+				"d4ce6367a49e193600000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_Base_01a/SM_Base_mid_01a",
+			"ExportBundleChunkIds": [
+				"e4bb94b5100bf1f600000001"
+			],
+			"BulkDataChunkIds": [
+				"e4bb94b5100bf1f600000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_Base_01a/T_Base_dark_DefaultMaterial_BaseColor",
+			"ExportBundleChunkIds": [
+				"478c8fc2dc3f8e9f00000001"
+			],
+			"BulkDataChunkIds": [
+				"478c8fc2dc3f8e9f00000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_Base_01a/T_Base_dark_DefaultMaterial_Normal",
+			"ExportBundleChunkIds": [
+				"4cda4cf5ddebc21100000001"
+			],
+			"BulkDataChunkIds": [
+				"4cda4cf5ddebc21100000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_Base_01a/T_Base_dark_DefaultMaterial_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"5d19e95f4f2edfc000000001"
+			],
+			"BulkDataChunkIds": [
+				"5d19e95f4f2edfc000000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_Base_01a/T_Base_default_DefaultMaterial_BaseColor",
+			"ExportBundleChunkIds": [
+				"788056185694278900000001"
+			],
+			"BulkDataChunkIds": [
+				"788056185694278900000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_Base_01a/T_Base_light_DefaultMaterial_BaseColor",
+			"ExportBundleChunkIds": [
+				"186f213a0d1833bd00000001"
+			],
+			"BulkDataChunkIds": [
+				"186f213a0d1833bd00000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_Base_01a/T_Base_mid_DefaultMaterial_BaseColor",
+			"ExportBundleChunkIds": [
+				"04e44cd584dd45fe00000001"
+			],
+			"BulkDataChunkIds": [
+				"04e44cd584dd45fe00000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_bordures_01a/MI_tour_ita_01a",
+			"ExportBundleChunkIds": [
+				"10ffbf1a0f8975e700000001"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_bordures_01a/T_tour_dark_DefaultMaterial_BaseColor",
+			"ExportBundleChunkIds": [
+				"b20f9b2ffe12452e00000001"
+			],
+			"BulkDataChunkIds": [
+				"b20f9b2ffe12452e00000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_bordures_01a/T_tour_dark_DefaultMaterial_Normal",
+			"ExportBundleChunkIds": [
+				"6b7831a4dbe3cc2500000001"
+			],
+			"BulkDataChunkIds": [
+				"6b7831a4dbe3cc2500000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_bordures_01a/T_tour_dark_DefaultMaterial_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"25513b6a494d9c9800000001"
+			],
+			"BulkDataChunkIds": [
+				"25513b6a494d9c9800000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_bordures_01a/T_tour_light_DefaultMaterial_BaseColor",
+			"ExportBundleChunkIds": [
+				"103175c957549c4b00000001"
+			],
+			"BulkDataChunkIds": [
+				"103175c957549c4b00000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_bordures_01a/tour_low",
+			"ExportBundleChunkIds": [
+				"e0ca1c76f992c55500000001"
+			],
+			"BulkDataChunkIds": [
+				"e0ca1c76f992c55500000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_bordures_01a/Ttour_mid_DefaultMaterial_BaseColor",
+			"ExportBundleChunkIds": [
+				"a13f70310e5edaf400000001"
+			],
+			"BulkDataChunkIds": [
+				"a13f70310e5edaf400000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_Frigo/T_tour_dark_DefaultMaterial_BaseColor",
+			"ExportBundleChunkIds": [
+				"90d3b4a69075e4b400000001"
+			],
+			"BulkDataChunkIds": [
+				"90d3b4a69075e4b400000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_Frigo/T_tour_dark_DefaultMaterial_Normal",
+			"ExportBundleChunkIds": [
+				"80f8e2f121be19f200000001"
+			],
+			"BulkDataChunkIds": [
+				"80f8e2f121be19f200000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_Frigo/T_tour_dark_DefaultMaterial_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"67d5ed34729dedeb00000001"
+			],
+			"BulkDataChunkIds": [
+				"67d5ed34729dedeb00000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_Frigo/T_tour_light_DefaultMaterial_BaseColor",
+			"ExportBundleChunkIds": [
+				"8c547693b6d74f4c00000001"
+			],
+			"BulkDataChunkIds": [
+				"8c547693b6d74f4c00000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_Frigo/tour_low",
+			"ExportBundleChunkIds": [
+				"101d799f8f125dbe00000001"
+			],
+			"BulkDataChunkIds": [
+				"101d799f8f125dbe00000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_Frigo/Ttour_mid_DefaultMaterial_BaseColor",
+			"ExportBundleChunkIds": [
+				"67cd32194acbcfb600000001"
+			],
+			"BulkDataChunkIds": [
+				"67cd32194acbcfb600000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_Hidden_floor_01a/MI_Hidden_floor_dark_01a",
+			"ExportBundleChunkIds": [
+				"1233f845a1bb605d00000001"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_Hidden_floor_01a/MI_Hidden_floor_default_01a",
+			"ExportBundleChunkIds": [
+				"1ba4408280b7ccc200000001"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_Hidden_floor_01a/MI_Hidden_floor_mid_01a",
+			"ExportBundleChunkIds": [
+				"f9c17649d5274cc200000001"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_Hidden_floor_01a/SM_Sous_sol_01a",
+			"ExportBundleChunkIds": [
+				"f306f126a487bd4900000001"
+			],
+			"BulkDataChunkIds": [
+				"f306f126a487bd4900000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_Hidden_floor_01a/SM_Sous_sol_default_01a",
+			"ExportBundleChunkIds": [
+				"7cfd69b5374a0add00000001"
+			],
+			"BulkDataChunkIds": [
+				"7cfd69b5374a0add00000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_Hidden_floor_01a/T_Sous_sol_dark_DefaultMaterial_BaseColor",
+			"ExportBundleChunkIds": [
+				"469f99f0542580d700000001"
+			],
+			"BulkDataChunkIds": [
+				"469f99f0542580d700000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_Hidden_floor_01a/T_Sous_sol_default_DefaultMaterial_BaseColor",
+			"ExportBundleChunkIds": [
+				"5f51c94122c0326e00000001"
+			],
+			"BulkDataChunkIds": [
+				"5f51c94122c0326e00000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_Hidden_floor_01a/T_Sous_sol_mid_DefaultMaterial_BaseColor",
+			"ExportBundleChunkIds": [
+				"22a40e0b4100c1b500000001"
+			],
+			"BulkDataChunkIds": [
+				"22a40e0b4100c1b500000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_Hidden_floor_01a/T_Sous_sol_mid_DefaultMaterial_Normal",
+			"ExportBundleChunkIds": [
+				"6aebbf761caada4500000001"
+			],
+			"BulkDataChunkIds": [
+				"6aebbf761caada4500000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_Hidden_floor_01a/T_Sous_sol_mid_DefaultMaterial_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"5b6002baf8e419a800000001"
+			],
+			"BulkDataChunkIds": [
+				"5b6002baf8e419a800000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_Pilier_t_01a/MI_Pilier_t_dark_01a",
+			"ExportBundleChunkIds": [
+				"61912d2458e2107d00000001"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_Pilier_t_01a/MI_Pilier_t_default_01a",
+			"ExportBundleChunkIds": [
+				"b98b41b3fabca23e00000001"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_Pilier_t_01a/MI_Pilier_t_light_01a",
+			"ExportBundleChunkIds": [
+				"351218fe7b212ae900000001"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_Pilier_t_01a/MI_Pilier_t_mid_01a",
+			"ExportBundleChunkIds": [
+				"c4f32946d67b2db600000001"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_Pilier_t_01a/MI_Tour_01a",
+			"ExportBundleChunkIds": [
+				"7905704734c6226300000001"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_Pilier_t_01a/SM_Pilier_t_dark_01a",
+			"ExportBundleChunkIds": [
+				"65edc2e13e07917700000001"
+			],
+			"BulkDataChunkIds": [
+				"65edc2e13e07917700000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_Pilier_t_01a/SM_Pilier_t_default_01a",
+			"ExportBundleChunkIds": [
+				"9469cf3cc4f2b29c00000001"
+			],
+			"BulkDataChunkIds": [
+				"9469cf3cc4f2b29c00000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_Pilier_t_01a/SM_Pilier_t_light_01a",
+			"ExportBundleChunkIds": [
+				"cf467c81e01474cf00000001"
+			],
+			"BulkDataChunkIds": [
+				"cf467c81e01474cf00000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_Pilier_t_01a/SM_Pilier_t_mid_01a",
+			"ExportBundleChunkIds": [
+				"b118c437bddb487100000001"
+			],
+			"BulkDataChunkIds": [
+				"b118c437bddb487100000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_Pilier_t_01a/T_Pilier_t_dark_DefaultMaterial_BaseColor",
+			"ExportBundleChunkIds": [
+				"de745aa91dbd928500000001"
+			],
+			"BulkDataChunkIds": [
+				"de745aa91dbd928500000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_Pilier_t_01a/T_Pilier_t_default_DefaultMaterial_BaseColor",
+			"ExportBundleChunkIds": [
+				"9059801cb050e9bb00000001"
+			],
+			"BulkDataChunkIds": [
+				"9059801cb050e9bb00000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_Pilier_t_01a/T_Pilier_t_light_DefaultMaterial_BaseColor",
+			"ExportBundleChunkIds": [
+				"106a786c7298f04100000001"
+			],
+			"BulkDataChunkIds": [
+				"106a786c7298f04100000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_Pilier_t_01a/T_Pilier_t_mid_DefaultMaterial_BaseColor",
+			"ExportBundleChunkIds": [
+				"cd51124032e0a00b00000001"
+			],
+			"BulkDataChunkIds": [
+				"cd51124032e0a00b00000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_Pilier_t_01a/T_Pilier_t_mid_DefaultMaterial_Normal",
+			"ExportBundleChunkIds": [
+				"c2b978a7b2406f9800000001"
+			],
+			"BulkDataChunkIds": [
+				"c2b978a7b2406f9800000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_Pilier_t_01a/T_Pilier_t_mid_DefaultMaterial_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"43cc01e6457248cf00000001"
+			],
+			"BulkDataChunkIds": [
+				"43cc01e6457248cf00000002"
+			]
+		},
+		{
+			"Name": "/Game/Art/Prefabs/SM_Starter_tower_01a/SM_Pilier_t_default_01a"
 		},
 		{
 			"Name": "/Game/Art/Prefabs/SM_TorcheMural_01a/MI_SM_TorcheMural_01a",
@@ -14628,18 +17978,6 @@
 			]
 		},
 		{
-			"Name": "/Game/Enemies/AI/BTT_ClearFocus",
-			"ExportBundleChunkIds": [
-				"ab27c210e273e56b00000001"
-			]
-		},
-		{
-			"Name": "/Game/Enemies/AI/BTT_FocusTarget",
-			"ExportBundleChunkIds": [
-				"19c50871a5e9198a00000001"
-			]
-		},
-		{
 			"Name": "/Game/Enemies/AI/Decorators/BTD_HasPatrolRoute",
 			"ExportBundleChunkIds": [
 				"7697d2cc43d4c70400000001"
@@ -14691,9 +18029,21 @@
 			]
 		},
 		{
+			"Name": "/Game/Enemies/AI/Tasks/BTT_ClearFocus",
+			"ExportBundleChunkIds": [
+				"3ce88241fd1709a100000001"
+			]
+		},
+		{
 			"Name": "/Game/Enemies/AI/Tasks/BTT_DefaultAttack",
 			"ExportBundleChunkIds": [
 				"5909eb8f9af6aaa300000001"
+			]
+		},
+		{
+			"Name": "/Game/Enemies/AI/Tasks/BTT_FocusTarget",
+			"ExportBundleChunkIds": [
+				"c28413845825c50000000001"
 			]
 		},
 		{
@@ -15177,6 +18527,1620 @@
 			],
 			"BulkDataChunkIds": [
 				"ee8873872a8b4a3600000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Blueprints/BP_ky_aquaStorm",
+			"ExportBundleChunkIds": [
+				"a051366c56cc51d800000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Blueprints/BP_ky_darkStorm",
+			"ExportBundleChunkIds": [
+				"e37b33f2e920f73500000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Blueprints/BP_ky_explosion",
+			"ExportBundleChunkIds": [
+				"5186fafcd96729a700000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Blueprints/BP_ky_fireBall",
+			"ExportBundleChunkIds": [
+				"3185ea6ea7da50a300000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Blueprints/BP_ky_fireStorm",
+			"ExportBundleChunkIds": [
+				"105e622831d70eca00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Blueprints/BP_ky_healAura",
+			"ExportBundleChunkIds": [
+				"55874f5c0be8bfff00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Blueprints/BP_ky_hit1",
+			"ExportBundleChunkIds": [
+				"9cc269150a0788d400000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Blueprints/BP_ky_hit2",
+			"ExportBundleChunkIds": [
+				"a77129befe9ebd3300000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Blueprints/BP_ky_laser01",
+			"ExportBundleChunkIds": [
+				"4c4d7cd0a26c896500000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Blueprints/BP_ky_lightning1",
+			"ExportBundleChunkIds": [
+				"72506adf07fa4e0200000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Blueprints/BP_ky_lightning2",
+			"ExportBundleChunkIds": [
+				"bc8fe225485ade7700000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Blueprints/BP_ky_lightning3",
+			"ExportBundleChunkIds": [
+				"292a8a2ea9e4a8c600000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Blueprints/BP_ky_magicCircle1",
+			"ExportBundleChunkIds": [
+				"a9e7bae7a1e1448200000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Blueprints/BP_ky_shootingStar1",
+			"ExportBundleChunkIds": [
+				"ec91364dd2c243ae00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Blueprints/BP_ky_shotSpawn",
+			"ExportBundleChunkIds": [
+				"a1a2c029dd82219f00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Blueprints/BP_ky_storm",
+			"ExportBundleChunkIds": [
+				"ee418bbc911faf5400000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Blueprints/BP_ky_thunderBall",
+			"ExportBundleChunkIds": [
+				"3196855f8acce97300000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Blueprints/BP_ky_ThunderBallHit",
+			"ExportBundleChunkIds": [
+				"d9c38d31c428486b00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Blueprints/BP_ky_thunderStorm",
+			"ExportBundleChunkIds": [
+				"8d0587363b55cf6d00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Blueprints/BP_ky_waterBall",
+			"ExportBundleChunkIds": [
+				"b734e85a8fea97af00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Blueprints/BP_ky_waterBallHit",
+			"ExportBundleChunkIds": [
+				"687d5bb90677179a00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Blueprints/BP_DemoDisplay_2",
+			"ExportBundleChunkIds": [
+				"8a66357c6dd3045f00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Blueprints/BP_DemoDisplay_Enum",
+			"ExportBundleChunkIds": [
+				"9b3b871f6fe4384400000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Blueprints/BP_DemoRoom_2",
+			"ExportBundleChunkIds": [
+				"529cb004e0cd98e100000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Blueprints/BP_DemoRoom_Enum",
+			"ExportBundleChunkIds": [
+				"aaa8aae075a2daba00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Materials/M_DefaultTextMaterialTranslucentUnlit",
+			"ExportBundleChunkIds": [
+				"f27b587a70c5f32400000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Materials/M_DemoRoomTiles",
+			"ExportBundleChunkIds": [
+				"311c8ff4f95c6a8600000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Materials/M_DemoWall",
+			"ExportBundleChunkIds": [
+				"ee1d562f7359678d00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Materials/M_DemoWall_Inst_NamePlate",
+			"ExportBundleChunkIds": [
+				"a5db5df4639d5e6e00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Materials/M_DemoWall_MattPlastic",
+			"ExportBundleChunkIds": [
+				"397001a1d3ea636d00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Materials/M_DemoWallPattern",
+			"ExportBundleChunkIds": [
+				"89b0138a2db8579e00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Materials/M_DemoWallPattern_Inst_Mirrored",
+			"ExportBundleChunkIds": [
+				"a7a083c2c97a48ff00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Materials/M_DemoWallPattern_NoText",
+			"ExportBundleChunkIds": [
+				"cd11c2f3f779994900000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Materials/M_Glass",
+			"ExportBundleChunkIds": [
+				"580a0c6a506d62f000000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Materials/M_LightTube",
+			"ExportBundleChunkIds": [
+				"ef941204bce719cc00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Materials/MI_DemoRoomTiles",
+			"ExportBundleChunkIds": [
+				"733143ffd97f268100000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Materials/MI_DemoWall",
+			"ExportBundleChunkIds": [
+				"2fac4fb956c34b3100000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Materials/MI_DemoWall2",
+			"ExportBundleChunkIds": [
+				"d183cb5d2353bc7300000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Materials/MI_DemoWall3",
+			"ExportBundleChunkIds": [
+				"017c64f52c7e902a00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Materials/MI_DemoWall_Inst_BaseFloor",
+			"ExportBundleChunkIds": [
+				"413d3bd3e29ef91e00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Materials/MI_DemoWallPattern",
+			"ExportBundleChunkIds": [
+				"73f841ec481cdb2600000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Materials/MI_Glass",
+			"ExportBundleChunkIds": [
+				"31af3629385452e800000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Materials/MI_LightTube",
+			"ExportBundleChunkIds": [
+				"49249cdbcfcfc05300000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Meshes/SM_Base",
+			"ExportBundleChunkIds": [
+				"1b690b7a66e73d1d00000001"
+			],
+			"BulkDataChunkIds": [
+				"1b690b7a66e73d1d00000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Meshes/SM_Base2",
+			"ExportBundleChunkIds": [
+				"366f95e624bd708100000001"
+			],
+			"BulkDataChunkIds": [
+				"366f95e624bd708100000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Meshes/SM_Base_FlatWall",
+			"ExportBundleChunkIds": [
+				"282f1da58c89704e00000001"
+			],
+			"BulkDataChunkIds": [
+				"282f1da58c89704e00000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Meshes/SM_BaseRoom",
+			"ExportBundleChunkIds": [
+				"d243fc60b402301600000001"
+			],
+			"BulkDataChunkIds": [
+				"d243fc60b402301600000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Meshes/SM_DemoDivider1",
+			"ExportBundleChunkIds": [
+				"08ff6a74bff7458800000001"
+			],
+			"BulkDataChunkIds": [
+				"08ff6a74bff7458800000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Meshes/SM_DemoDivider2",
+			"ExportBundleChunkIds": [
+				"47038648d6b960de00000001"
+			],
+			"BulkDataChunkIds": [
+				"47038648d6b960de00000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Meshes/SM_DemoRoomBackWall",
+			"ExportBundleChunkIds": [
+				"3c0c6522b2808e0200000001"
+			],
+			"BulkDataChunkIds": [
+				"3c0c6522b2808e0200000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Meshes/SM_DemoRoomBackWall2",
+			"ExportBundleChunkIds": [
+				"cd7b106334aade2900000001"
+			],
+			"BulkDataChunkIds": [
+				"cd7b106334aade2900000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Meshes/SM_DemoRoomClamp",
+			"ExportBundleChunkIds": [
+				"a42269c7767e15e600000001"
+			],
+			"BulkDataChunkIds": [
+				"a42269c7767e15e600000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Meshes/SM_DemoRoomClamp2",
+			"ExportBundleChunkIds": [
+				"ae8726cee7239d1d00000001"
+			],
+			"BulkDataChunkIds": [
+				"ae8726cee7239d1d00000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Meshes/SM_DemoRoomL",
+			"ExportBundleChunkIds": [
+				"a8f474dcff5feec200000001"
+			],
+			"BulkDataChunkIds": [
+				"a8f474dcff5feec200000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Meshes/SM_DemoRoomLTrim",
+			"ExportBundleChunkIds": [
+				"4a5b4f49e08e09ad00000001"
+			],
+			"BulkDataChunkIds": [
+				"4a5b4f49e08e09ad00000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Meshes/SM_DemoRoomTrim",
+			"ExportBundleChunkIds": [
+				"dd84ae4309bc318000000001"
+			],
+			"BulkDataChunkIds": [
+				"dd84ae4309bc318000000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Meshes/SM_DemoRoomTrim2",
+			"ExportBundleChunkIds": [
+				"264d068063f5398700000001"
+			],
+			"BulkDataChunkIds": [
+				"264d068063f5398700000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Meshes/SM_DemoRoomTrimAdd",
+			"ExportBundleChunkIds": [
+				"afdb84aa051c14b500000001"
+			],
+			"BulkDataChunkIds": [
+				"afdb84aa051c14b500000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Meshes/SM_DemoRoomU",
+			"ExportBundleChunkIds": [
+				"74268fb6e41e935100000001"
+			],
+			"BulkDataChunkIds": [
+				"74268fb6e41e935100000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Meshes/SM_DemoRoomU2",
+			"ExportBundleChunkIds": [
+				"6a2bd1ac278dce3000000001"
+			],
+			"BulkDataChunkIds": [
+				"6a2bd1ac278dce3000000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Meshes/SM_DemoRoomU_Hole",
+			"ExportBundleChunkIds": [
+				"2c97dcc183d6b6d700000001"
+			],
+			"BulkDataChunkIds": [
+				"2c97dcc183d6b6d700000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Meshes/SM_NamePlate",
+			"ExportBundleChunkIds": [
+				"8b110069570dc24c00000001"
+			],
+			"BulkDataChunkIds": [
+				"8b110069570dc24c00000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Meshes/SM_URoom_Wall",
+			"ExportBundleChunkIds": [
+				"7d167ee3abbad9f900000001"
+			],
+			"BulkDataChunkIds": [
+				"7d167ee3abbad9f900000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Meshes/SM_URoom_Wall2",
+			"ExportBundleChunkIds": [
+				"2af1b19b5eea755e00000001"
+			],
+			"BulkDataChunkIds": [
+				"2af1b19b5eea755e00000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Physical_Materials/Concrete",
+			"ExportBundleChunkIds": [
+				"7e8c5f8b6038344200000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Physical_Materials/Metal",
+			"ExportBundleChunkIds": [
+				"06c051ec39fa347400000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Physical_Materials/Rubber",
+			"ExportBundleChunkIds": [
+				"c8c7eb89bac705bd00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Textures/T_Pattern_M",
+			"ExportBundleChunkIds": [
+				"795ffc7e311664c400000001"
+			],
+			"BulkDataChunkIds": [
+				"795ffc7e311664c400000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Textures/T_RoomTiles_M",
+			"ExportBundleChunkIds": [
+				"b1486b1a09be6c2000000001"
+			],
+			"BulkDataChunkIds": [
+				"b1486b1a09be6c2000000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Textures/T_RoomTiles_N",
+			"ExportBundleChunkIds": [
+				"218178cb2cb10e4400000001"
+			],
+			"BulkDataChunkIds": [
+				"218178cb2cb10e4400000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/EpicContent/Textures/T_UnrealEngineDecal",
+			"ExportBundleChunkIds": [
+				"bb28f2b615b33b9900000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Map/Overview",
+			"ExportBundleChunkIds": [
+				"38c0f705ee4a6ce800000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/M_ky_aura9",
+			"ExportBundleChunkIds": [
+				"254acbc14636c89900000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/M_ky_auraWall02",
+			"ExportBundleChunkIds": [
+				"802e32ced35ca0b600000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/M_ky_base",
+			"ExportBundleChunkIds": [
+				"f4ad258dabec6f8700000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/M_ky_base_anime",
+			"ExportBundleChunkIds": [
+				"2420347eb7fa9b5600000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/M_ky_base_turbulence",
+			"ExportBundleChunkIds": [
+				"d2e0a3f54fb71ab400000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/M_ky_chantDecoA",
+			"ExportBundleChunkIds": [
+				"c18b86318f75c01400000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/M_ky_circle01_4x4G_nonD",
+			"ExportBundleChunkIds": [
+				"be39f7b7f538136500000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/M_ky_dust01_4x4",
+			"ExportBundleChunkIds": [
+				"d6b4c82f510a194700000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/M_ky_dynDust",
+			"ExportBundleChunkIds": [
+				"e402c5a92bde70a700000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/M_ky_empty",
+			"ExportBundleChunkIds": [
+				"347b7af7cceea01c00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/M_ky_flare01_primitive",
+			"ExportBundleChunkIds": [
+				"903d57129c4da1f100000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/M_ky_flare_flash",
+			"ExportBundleChunkIds": [
+				"a2c97138944f811a00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/M_ky_flarePillar",
+			"ExportBundleChunkIds": [
+				"c8412bd58e09929100000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/M_ky_flareVert",
+			"ExportBundleChunkIds": [
+				"aa96150c17aca9e900000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/M_ky_Fresnel",
+			"ExportBundleChunkIds": [
+				"8e80f1598f6bfae900000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/M_ky_laser01",
+			"ExportBundleChunkIds": [
+				"d6515bd156263edc00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/M_ky_magicCircle020",
+			"ExportBundleChunkIds": [
+				"87c9b427bde3e02b00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/M_ky_polar",
+			"ExportBundleChunkIds": [
+				"22399afd834b4df300000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/M_ky_polar_primitive",
+			"ExportBundleChunkIds": [
+				"a4b86a994e0991f300000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/M_ky_primitive",
+			"ExportBundleChunkIds": [
+				"9ff3f598fd5728c300000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/M_ky_primitive_dyn2",
+			"ExportBundleChunkIds": [
+				"921ac1c187d4950400000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/M_ky_shockWave03_4x4",
+			"ExportBundleChunkIds": [
+				"ec3ca0c0e5583c9a00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/M_ky_smoke01",
+			"ExportBundleChunkIds": [
+				"7e5662b24acdb1a300000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/M_ky_starDust",
+			"ExportBundleChunkIds": [
+				"000cd85f0716f10d00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/M_ky_stone02",
+			"ExportBundleChunkIds": [
+				"ad2258820ca1c93400000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/M_ky_storm01",
+			"ExportBundleChunkIds": [
+				"dd46f84f3d5db42100000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/M_ky_stormDeco01",
+			"ExportBundleChunkIds": [
+				"d98304ba0cdbfc0000000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/M_ky_subUV01",
+			"ExportBundleChunkIds": [
+				"37f34606f535d0bd00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/M_ky_subUV03",
+			"ExportBundleChunkIds": [
+				"2b83db81f1b4508f00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/M_ky_subUV_dynRGB",
+			"ExportBundleChunkIds": [
+				"e2f4da8e032444af00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/M_ky_thunderForBeam",
+			"ExportBundleChunkIds": [
+				"e3d0e7ba91afcf1500000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/M_ky_trail_primitive",
+			"ExportBundleChunkIds": [
+				"eda7008f4e006b6300000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/M_ky_vortex04_4x4",
+			"ExportBundleChunkIds": [
+				"b60f6b75e49c3a9400000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/M_ky_waterDust02",
+			"ExportBundleChunkIds": [
+				"78dafca432c35ea500000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/Mfunction/MF_ky_AddHilight",
+			"ExportBundleChunkIds": [
+				"4638b1a57452003500000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/Mfunction/MF_ky_MaskToTopUnder",
+			"ExportBundleChunkIds": [
+				"15176bd3804b017c00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/Mfunction/MF_ky_TexController",
+			"ExportBundleChunkIds": [
+				"a5ce61de9cb2501800000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/Mfunction/MF_ky_TexController_primitive",
+			"ExportBundleChunkIds": [
+				"8ab2ea18024af3bf00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/Mfunction/MF_ky_UVcontrol_4x4",
+			"ExportBundleChunkIds": [
+				"d58b9147dd09605b00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/Mfunction/MF_ky_VectorToRadialValue",
+			"ExportBundleChunkIds": [
+				"ec1a142f474e458e00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_aura011_4x4",
+			"ExportBundleChunkIds": [
+				"b25403695b2a8f6900000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_aura011_4x4_nonD",
+			"ExportBundleChunkIds": [
+				"fc5dfc0e3279b87e00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_aura9",
+			"ExportBundleChunkIds": [
+				"a1e10c7d88ebaee000000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_auraWall02_two",
+			"ExportBundleChunkIds": [
+				"ff4cb4fbde5fd99d00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_chantDecoAc",
+			"ExportBundleChunkIds": [
+				"ad8c204ade54407a00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_circle9_4x4c2",
+			"ExportBundleChunkIds": [
+				"b9492de0c840f36100000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_circleDust",
+			"ExportBundleChunkIds": [
+				"c3cf0bcfb655bca200000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_dynDust",
+			"ExportBundleChunkIds": [
+				"5766dee6fc2dfc9300000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_dynDust2",
+			"ExportBundleChunkIds": [
+				"b58243bc7a5f7d1d00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_flare25_4x4",
+			"ExportBundleChunkIds": [
+				"a715cb41125565af00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_flare_flash_trs",
+			"ExportBundleChunkIds": [
+				"c63d031bc49accf000000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_flareVertical03b_4x4",
+			"ExportBundleChunkIds": [
+				"308ed63ea59782d700000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_lightning02_4x4",
+			"ExportBundleChunkIds": [
+				"1aaeb22d57a7f42d00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_lightningDust01_4x4_nonD",
+			"ExportBundleChunkIds": [
+				"9b183d640fa5d09600000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_polar_two",
+			"ExportBundleChunkIds": [
+				"2f1631faa3f6a36300000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_polarC_two",
+			"ExportBundleChunkIds": [
+				"da6ae3dad72103c000000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_polarG_nonD",
+			"ExportBundleChunkIds": [
+				"153e9f687f3698f700000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_primitive2b_trs",
+			"ExportBundleChunkIds": [
+				"c1a4de9e5a5fcfa300000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_primitive_dynB_nonD",
+			"ExportBundleChunkIds": [
+				"ccd9676b4ca6bde800000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_primitive_dynB_two",
+			"ExportBundleChunkIds": [
+				"1f7da06a52713ed000000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_shine01B",
+			"ExportBundleChunkIds": [
+				"b0efa3564864bc6000000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_shine01R",
+			"ExportBundleChunkIds": [
+				"86b038b69854dff500000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_shine01R_nonD",
+			"ExportBundleChunkIds": [
+				"a18d1f620da1a9db00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_shockWave03g_4x4",
+			"ExportBundleChunkIds": [
+				"52c5babe8792ef5800000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_shockwave10R_4x4_nonD",
+			"ExportBundleChunkIds": [
+				"6ec4227a2947b41d00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_shockwave12_4x4",
+			"ExportBundleChunkIds": [
+				"fbefd2700bf76c0100000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_smoke01",
+			"ExportBundleChunkIds": [
+				"51c084779f0a41c400000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_smoke01b",
+			"ExportBundleChunkIds": [
+				"1fe92ebeff0b829200000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_smoke01c",
+			"ExportBundleChunkIds": [
+				"39d0ef1bddd855e000000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_starDust_dis",
+			"ExportBundleChunkIds": [
+				"919421a3eb700c2f00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_starDust_sq",
+			"ExportBundleChunkIds": [
+				"357654d47498d99400000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_storm01_aqua",
+			"ExportBundleChunkIds": [
+				"e7b43add1a11332800000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_storm01_aqua_nonD",
+			"ExportBundleChunkIds": [
+				"327ad02f41605a6a00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_storm01_dark",
+			"ExportBundleChunkIds": [
+				"a4ba58bcf0be35fb00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_storm01_dark_nonD",
+			"ExportBundleChunkIds": [
+				"39ccbb3c7e53c8a600000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_storm01_fire",
+			"ExportBundleChunkIds": [
+				"6c96a765483e3dd900000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_storm01_fire_nonD1",
+			"ExportBundleChunkIds": [
+				"e4da57202508d8ba00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_storm01_nonD",
+			"ExportBundleChunkIds": [
+				"e5ee83f7e4e81fad00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_storm01_thunder",
+			"ExportBundleChunkIds": [
+				"0488aa2fe058f30600000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_storm01_thunder_nonD",
+			"ExportBundleChunkIds": [
+				"12f893d1f64ae4b000000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_stormDeco01_aqua",
+			"ExportBundleChunkIds": [
+				"314b7ee82ab8357500000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_stormDeco01_dark",
+			"ExportBundleChunkIds": [
+				"a89053cff376f11800000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_stormDeco01_fire",
+			"ExportBundleChunkIds": [
+				"ced566c0b12907a200000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_turbulence_smoke2d_trs",
+			"ExportBundleChunkIds": [
+				"2b5eeae520e979b800000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Materials/MI_ky_vortex04B_4x4_two",
+			"ExportBundleChunkIds": [
+				"1ae809e7c1079db400000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Meshes/SM_ky_auraWall_distB_kai",
+			"ExportBundleChunkIds": [
+				"ace51df5b31ad77800000001"
+			],
+			"BulkDataChunkIds": [
+				"ace51df5b31ad77800000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Meshes/SM_ky_circleDist06",
+			"ExportBundleChunkIds": [
+				"feae740b35d6dd3b00000001"
+			],
+			"BulkDataChunkIds": [
+				"feae740b35d6dd3b00000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Meshes/SM_ky_cylinder_lowPoly_dist",
+			"ExportBundleChunkIds": [
+				"d282e59aec0fb92300000001"
+			],
+			"BulkDataChunkIds": [
+				"d282e59aec0fb92300000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Meshes/SM_ky_cylinder_superLow",
+			"ExportBundleChunkIds": [
+				"29587d83f827bad200000001"
+			],
+			"BulkDataChunkIds": [
+				"29587d83f827bad200000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Meshes/SM_ky_cylinderBend07",
+			"ExportBundleChunkIds": [
+				"95294589d6f1c66100000001"
+			],
+			"BulkDataChunkIds": [
+				"95294589d6f1c66100000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Meshes/SM_ky_planeBend",
+			"ExportBundleChunkIds": [
+				"3554eeeecbc1448700000001"
+			],
+			"BulkDataChunkIds": [
+				"3554eeeecbc1448700000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Meshes/SM_ky_quad_centerRot",
+			"ExportBundleChunkIds": [
+				"23d7172b49a2fc4100000001"
+			],
+			"BulkDataChunkIds": [
+				"23d7172b49a2fc4100000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Meshes/SM_ky_quads",
+			"ExportBundleChunkIds": [
+				"d8912a0bf01ac5b500000001"
+			],
+			"BulkDataChunkIds": [
+				"d8912a0bf01ac5b500000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Meshes/SM_ky_tornado07",
+			"ExportBundleChunkIds": [
+				"d9635334b8b3d5de00000001"
+			],
+			"BulkDataChunkIds": [
+				"d9635334b8b3d5de00000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Meshes/SM_ky_windSmokeVertRot",
+			"ExportBundleChunkIds": [
+				"944217184c24b20f00000001"
+			],
+			"BulkDataChunkIds": [
+				"944217184c24b20f00000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Particles/P_ky_aquaStorm",
+			"ExportBundleChunkIds": [
+				"5e651279d0b82a5300000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Particles/P_ky_darkStorm",
+			"ExportBundleChunkIds": [
+				"0dc6229a1ee93aba00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Particles/P_ky_explosion",
+			"ExportBundleChunkIds": [
+				"3cfc31fe4fa098f200000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Particles/P_ky_fireBall",
+			"ExportBundleChunkIds": [
+				"71aea14b81706d0d00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Particles/P_ky_fireStorm",
+			"ExportBundleChunkIds": [
+				"33e24c1a65927c5200000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Particles/P_ky_healAura",
+			"ExportBundleChunkIds": [
+				"fdb953230d19918400000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Particles/P_ky_hit1",
+			"ExportBundleChunkIds": [
+				"e6f1404e7b2afa6b00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Particles/P_ky_hit2",
+			"ExportBundleChunkIds": [
+				"e975d885f13c837100000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Particles/P_ky_laser01",
+			"ExportBundleChunkIds": [
+				"70591deb5d04959e00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Particles/P_ky_lightning1",
+			"ExportBundleChunkIds": [
+				"e74e2b3c3f09f04a00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Particles/P_ky_lightning2",
+			"ExportBundleChunkIds": [
+				"6e0cafd97be6ab5400000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Particles/P_ky_lightning3",
+			"ExportBundleChunkIds": [
+				"b42e48b3e1e4f17900000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Particles/P_ky_magicCircle1",
+			"ExportBundleChunkIds": [
+				"224f1d17d49f1ed800000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Particles/P_ky_shootingStar1",
+			"ExportBundleChunkIds": [
+				"9183226ea8670fc500000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Particles/P_ky_shotShockwave",
+			"ExportBundleChunkIds": [
+				"59022d5ff582ae1f00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Particles/P_ky_storm",
+			"ExportBundleChunkIds": [
+				"e164bd44721788a500000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Particles/P_ky_thunderBall",
+			"ExportBundleChunkIds": [
+				"7ea48d3c4c68d6db00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Particles/P_ky_ThunderBallHit",
+			"ExportBundleChunkIds": [
+				"4b3b63b1202db9e500000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Particles/P_ky_thunderStorm",
+			"ExportBundleChunkIds": [
+				"a35da7e9c04adc1100000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Particles/P_ky_waterBall",
+			"ExportBundleChunkIds": [
+				"fe2206234c25e8af00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Particles/P_ky_waterBallHit",
+			"ExportBundleChunkIds": [
+				"48f054a6eda152a400000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_aura011_4x4",
+			"ExportBundleChunkIds": [
+				"d585e7cd8f40306400000001"
+			],
+			"BulkDataChunkIds": [
+				"d585e7cd8f40306400000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_auraWallWhite_4x4",
+			"ExportBundleChunkIds": [
+				"d0d4fbd9617aab0000000001"
+			],
+			"BulkDataChunkIds": [
+				"d0d4fbd9617aab0000000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_bg",
+			"ExportBundleChunkIds": [
+				"d6b5f4365aa96f8f00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_bg_LC",
+			"ExportBundleChunkIds": [
+				"ad6e21f06bb2a15900000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_chantDecoC",
+			"ExportBundleChunkIds": [
+				"82e20fef697d224a00000001"
+			],
+			"BulkDataChunkIds": [
+				"82e20fef697d224a00000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_circle01_4x4",
+			"ExportBundleChunkIds": [
+				"4bf6dd7b91724e9500000001"
+			],
+			"BulkDataChunkIds": [
+				"4bf6dd7b91724e9500000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_circle9_4x4",
+			"ExportBundleChunkIds": [
+				"7d96d397fdf8360800000001"
+			],
+			"BulkDataChunkIds": [
+				"7d96d397fdf8360800000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_circleDust",
+			"ExportBundleChunkIds": [
+				"da37e013ab837efa00000001"
+			],
+			"BulkDataChunkIds": [
+				"da37e013ab837efa00000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_deco_doom",
+			"ExportBundleChunkIds": [
+				"fcadc26e5f7aff5300000001"
+			],
+			"BulkDataChunkIds": [
+				"fcadc26e5f7aff5300000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_deco_rainbow",
+			"ExportBundleChunkIds": [
+				"d282bc2dfab3230800000001"
+			],
+			"BulkDataChunkIds": [
+				"d282bc2dfab3230800000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_decoLines",
+			"ExportBundleChunkIds": [
+				"ffd1dd41cb2a613700000001"
+			],
+			"BulkDataChunkIds": [
+				"ffd1dd41cb2a613700000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_decoLinesB",
+			"ExportBundleChunkIds": [
+				"0166b34480e1aa3200000001"
+			],
+			"BulkDataChunkIds": [
+				"0166b34480e1aa3200000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_dist_noise",
+			"ExportBundleChunkIds": [
+				"987ed7e61ddf18a900000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_dust01_4x4",
+			"ExportBundleChunkIds": [
+				"b4115f5a983c1aea00000001"
+			],
+			"BulkDataChunkIds": [
+				"b4115f5a983c1aea00000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_dust_longStar",
+			"ExportBundleChunkIds": [
+				"ed9f48a65e2c215500000001"
+			],
+			"BulkDataChunkIds": [
+				"ed9f48a65e2c215500000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_flare25_4x4",
+			"ExportBundleChunkIds": [
+				"bd698526b372be3a00000001"
+			],
+			"BulkDataChunkIds": [
+				"bd698526b372be3a00000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_flare3",
+			"ExportBundleChunkIds": [
+				"5e0a8a979f460b9c00000001"
+			],
+			"BulkDataChunkIds": [
+				"5e0a8a979f460b9c00000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_flare_a",
+			"ExportBundleChunkIds": [
+				"e1d58ba21af4e8c500000001"
+			],
+			"BulkDataChunkIds": [
+				"e1d58ba21af4e8c500000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_flareVert",
+			"ExportBundleChunkIds": [
+				"46ddaf42fe3e4b3400000001"
+			],
+			"BulkDataChunkIds": [
+				"46ddaf42fe3e4b3400000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_flareVertical02",
+			"ExportBundleChunkIds": [
+				"485048a323fe9ef000000001"
+			],
+			"BulkDataChunkIds": [
+				"485048a323fe9ef000000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_flareVertical03_4x4",
+			"ExportBundleChunkIds": [
+				"166f9ce2f7000d2a00000001"
+			],
+			"BulkDataChunkIds": [
+				"166f9ce2f7000d2a00000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_lightning02_4x4",
+			"ExportBundleChunkIds": [
+				"e1d97e15223a7bc100000001"
+			],
+			"BulkDataChunkIds": [
+				"e1d97e15223a7bc100000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_lightningDust01_4x4",
+			"ExportBundleChunkIds": [
+				"a7c3863ead391c5800000001"
+			],
+			"BulkDataChunkIds": [
+				"a7c3863ead391c5800000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_magicCircle020",
+			"ExportBundleChunkIds": [
+				"20915301354d756100000001"
+			],
+			"BulkDataChunkIds": [
+				"20915301354d756100000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_maskCircle",
+			"ExportBundleChunkIds": [
+				"d543f2139d8e5e9800000001"
+			],
+			"BulkDataChunkIds": [
+				"d543f2139d8e5e9800000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_maskRGB3",
+			"ExportBundleChunkIds": [
+				"24ced509ae6a410000000001"
+			],
+			"BulkDataChunkIds": [
+				"24ced509ae6a410000000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_maskRGB5",
+			"ExportBundleChunkIds": [
+				"ba66e5944c01e5a200000001"
+			],
+			"BulkDataChunkIds": [
+				"ba66e5944c01e5a200000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_noise",
+			"ExportBundleChunkIds": [
+				"ccb6af5a4de9b22300000001"
+			],
+			"BulkDataChunkIds": [
+				"ccb6af5a4de9b22300000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_noise13_sml_nor",
+			"ExportBundleChunkIds": [
+				"3a009502cfdcc61400000001"
+			],
+			"BulkDataChunkIds": [
+				"3a009502cfdcc61400000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_noise17",
+			"ExportBundleChunkIds": [
+				"c8f17e3004ebc2de00000001"
+			],
+			"BulkDataChunkIds": [
+				"c8f17e3004ebc2de00000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_noise3",
+			"ExportBundleChunkIds": [
+				"7f982ffcdf745c4500000001"
+			],
+			"BulkDataChunkIds": [
+				"7f982ffcdf745c4500000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_noise4",
+			"ExportBundleChunkIds": [
+				"1438d6f606c9c35d00000001"
+			],
+			"BulkDataChunkIds": [
+				"1438d6f606c9c35d00000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_noise5",
+			"ExportBundleChunkIds": [
+				"5047a50f3aeaed0500000001"
+			],
+			"BulkDataChunkIds": [
+				"5047a50f3aeaed0500000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_noise6",
+			"ExportBundleChunkIds": [
+				"5546798c23e12fb500000001"
+			],
+			"BulkDataChunkIds": [
+				"5546798c23e12fb500000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_shine01_4x4",
+			"ExportBundleChunkIds": [
+				"c9605965a8ab9a2700000001"
+			],
+			"BulkDataChunkIds": [
+				"c9605965a8ab9a2700000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_shockWave03_4x4",
+			"ExportBundleChunkIds": [
+				"cdd3e87aba79fa1300000001"
+			],
+			"BulkDataChunkIds": [
+				"cdd3e87aba79fa1300000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_shockwave10_4x4",
+			"ExportBundleChunkIds": [
+				"b8ab090fce74bd6500000001"
+			],
+			"BulkDataChunkIds": [
+				"b8ab090fce74bd6500000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_shockwave12_4x4",
+			"ExportBundleChunkIds": [
+				"8784a8d3297ce81700000001"
+			],
+			"BulkDataChunkIds": [
+				"8784a8d3297ce81700000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_smoke03",
+			"ExportBundleChunkIds": [
+				"8e2ad71468a190da00000001"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_smoke1",
+			"ExportBundleChunkIds": [
+				"cb7886b19e734dc200000001"
+			],
+			"BulkDataChunkIds": [
+				"cb7886b19e734dc200000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_smoke2",
+			"ExportBundleChunkIds": [
+				"89dd8a11baaf786000000001"
+			],
+			"BulkDataChunkIds": [
+				"89dd8a11baaf786000000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_smoke_kai",
+			"ExportBundleChunkIds": [
+				"60e341a72e55c56c00000001"
+			],
+			"BulkDataChunkIds": [
+				"60e341a72e55c56c00000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_stone02_2x2",
+			"ExportBundleChunkIds": [
+				"d53d636e76ceb15300000001"
+			],
+			"BulkDataChunkIds": [
+				"d53d636e76ceb15300000002"
+			]
+		},
+		{
+			"Name": "/Game/FXVarietyPack/Textures/T_ky_vortex04_4x4",
+			"ExportBundleChunkIds": [
+				"28339a75b6f2533200000001"
+			],
+			"BulkDataChunkIds": [
+				"28339a75b6f2533200000002"
 			]
 		},
 		{
